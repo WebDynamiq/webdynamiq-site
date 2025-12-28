@@ -4,8 +4,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
 export const metadata: Metadata = {
-  title: "How Pricing Works",
-  description: "Understand our transparent pricing model. We offer flexible web development solutions adapted to your specific needs and budget.",
+  title: "Hoe Prijzen Werken",
+  description: "Begrijp ons transparante prijsmodel. Wij bieden flexibele webdevelopment oplossingen aangepast aan uw specifieke behoeften en budget.",
 };
 
 export default function HowPricingWorksPage() {
@@ -15,11 +15,11 @@ export default function HowPricingWorksPage() {
       <section className="py-20 bg-muted/30">
         <div className="container px-4 md:px-8 mx-auto max-w-4xl text-center">
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">
-            Fair, Transparent, and <span className="text-primary">Flexible</span>
+            Eerlijk, Transparant en <span className="text-primary">Flexibel</span>
           </h1>
           <p className="text-xl text-muted-foreground leading-relaxed">
-            We believe professional web development should be accessible. 
-            Our pricing model is designed to be clear, honest, and adaptable to your business reality.
+            Wij geloven dat professioneel webdevelopment toegankelijk moet zijn. 
+            Ons prijsmodel is ontworpen om duidelijk, eerlijk en aanpasbaar te zijn aan uw bedrijfsrealiteit.
           </p>
         </div>
       </section>
@@ -29,15 +29,15 @@ export default function HowPricingWorksPage() {
         <div className="container px-4 md:px-8 mx-auto max-w-4xl">
           <div className="grid gap-12">
             <div>
-              <h2 className="text-3xl font-bold mb-6">Our Pricing Philosophy</h2>
+              <h2 className="text-3xl font-bold mb-6">Onze Prijsfilosofie</h2>
               <div className="prose prose-lg text-muted-foreground">
                 <p className="mb-4">
-                  At Webdynamiq, we don't believe in "one size fits all." Every business is unique, and so are your digital needs. 
-                  Whether you are a local startup needing a simple landing page or an established company looking for a complex web application, 
-                  we approach pricing with the same goal: <strong>delivering maximum value for your budget.</strong>
+                  Bij Webdynamiq geloven we niet in "one size fits all". Elk bedrijf is uniek, en dat geldt ook voor uw digitale behoeften. 
+                  Of u nu een lokale startup bent die een eenvoudige landingspagina nodig heeft of een gevestigd bedrijf dat op zoek is naar een complexe webapplicatie, 
+                  wij benaderen prijzen met hetzelfde doel: <strong>maximale waarde leveren voor uw budget.</strong>
                 </p>
                 <p>
-                  We operate with a lean structure, which means you pay for expert development and personal service—not for expensive office overhead or account managers.
+                  Wij werken met een slanke structuur, wat betekent dat u betaalt voor deskundige ontwikkeling en persoonlijke service—niet voor dure kantoorkosten of accountmanagers.
                 </p>
               </div>
             </div>
@@ -48,7 +48,7 @@ export default function HowPricingWorksPage() {
       {/* The Process Steps */}
       <section className="py-20 bg-background border-y">
         <div className="container px-4 md:px-8 mx-auto max-w-4xl">
-          <h2 className="text-3xl font-bold mb-12 text-center">How We Determine Your Price</h2>
+          <h2 className="text-3xl font-bold mb-12 text-center">Hoe wij uw prijs bepalen</h2>
           
           <div className="space-y-8">
             {/* Step 1 */}
@@ -57,10 +57,10 @@ export default function HowPricingWorksPage() {
                 1
               </div>
               <div>
-                <h3 className="text-xl font-bold mb-2">Initial Consultation</h3>
+                <h3 className="text-xl font-bold mb-2">Eerste Kennismaking</h3>
                 <p className="text-muted-foreground">
-                  We start with a conversation. We listen to your ideas, understand your business goals, and discuss your available budget openly. 
-                  This isn't a sales pitch; it's a discovery session to see if we're a good fit.
+                  We beginnen met een gesprek. We luisteren naar uw ideeën, begrijpen uw bedrijfsdoelen en bespreken openlijk uw beschikbare budget. 
+                  Dit is geen verkooppraatje; het is een ontdekkingssessie om te zien of we een goede match zijn.
                 </p>
               </div>
             </div>
@@ -71,10 +71,10 @@ export default function HowPricingWorksPage() {
                 2
               </div>
               <div>
-                <h3 className="text-xl font-bold mb-2">Scope & Proposal</h3>
+                <h3 className="text-xl font-bold mb-2">Scope & Voorstel</h3>
                 <p className="text-muted-foreground">
-                  Based on our chat, we define the scope of work. We'll outline exactly what features you need and what you don't. 
-                  We provide a clear, itemized proposal so you know exactly where your money is going.
+                  Op basis van ons gesprek definiëren we de scope van het werk. We schetsen precies welke functies u nodig heeft en welke niet. 
+                  We bieden een duidelijk, gespecificeerd voorstel zodat u precies weet waar uw geld naartoe gaat.
                 </p>
               </div>
             </div>
@@ -85,10 +85,10 @@ export default function HowPricingWorksPage() {
                 3
               </div>
               <div>
-                <h3 className="text-xl font-bold mb-2">Flexibility & Adjustments</h3>
+                <h3 className="text-xl font-bold mb-2">Flexibiliteit & Aanpassingen</h3>
                 <p className="text-muted-foreground">
-                  Our starting prices are just that—a starting point. If the proposal exceeds your budget, we don't just walk away. 
-                  We look for solutions. Can we phase the project? Can we simplify a feature? We work with you to find the sweet spot.
+                  Onze vanafprijzen zijn precies dat—een startpunt. Als het voorstel uw budget overschrijdt, lopen we niet zomaar weg. 
+                  We zoeken naar oplossingen. Kunnen we het project faseren? Kunnen we een functie vereenvoudigen? We werken met u samen om de gulden middenweg te vinden.
                 </p>
               </div>
             </div>
@@ -99,10 +99,10 @@ export default function HowPricingWorksPage() {
                 4
               </div>
               <div>
-                <h3 className="text-xl font-bold mb-2">Agreement & Launch</h3>
+                <h3 className="text-xl font-bold mb-2">Overeenkomst & Start</h3>
                 <p className="text-muted-foreground">
-                  Once we agree on the scope and price, we get to work. No surprise bills, no hidden costs. 
-                  We keep you updated throughout the development process until your site is ready to launch.
+                  Zodra we het eens zijn over de scope en prijs, gaan we aan de slag. Geen verrassingsfacturen, geen verborgen kosten. 
+                  We houden u op de hoogte tijdens het ontwikkelingsproces totdat uw site klaar is voor lancering.
                 </p>
               </div>
             </div>
@@ -116,20 +116,20 @@ export default function HowPricingWorksPage() {
           <div className="grid md:grid-cols-2 gap-8">
             <Card className="bg-background border-none shadow-sm">
               <CardContent className="pt-6">
-                <h3 className="text-lg font-bold mb-3">Is my budget too small?</h3>
+                <h3 className="text-lg font-bold mb-3">Is mijn budget te klein?</h3>
                 <p className="text-muted-foreground">
-                  Likely not. We love working with small businesses and startups. If you have a limited budget, be honest with us. 
-                  We can often recommend a streamlined solution or a phased approach that gets you online professionally without overspending.
+                  Waarschijnlijk niet. We werken graag met kleine bedrijven en startups. Als u een beperkt budget heeft, wees dan eerlijk tegen ons. 
+                  We kunnen vaak een gestroomlijnde oplossing of een gefaseerde aanpak aanbevelen die u professioneel online brengt zonder te veel uit te geven.
                 </p>
               </CardContent>
             </Card>
 
             <Card className="bg-background border-none shadow-sm">
               <CardContent className="pt-6">
-                <h3 className="text-lg font-bold mb-3">Do you charge hourly or per project?</h3>
+                <h3 className="text-lg font-bold mb-3">Rekenen jullie per uur of per project?</h3>
                 <p className="text-muted-foreground">
-                  For most websites and applications, we prefer <strong>project-based pricing</strong>. This gives you certainty and peace of mind. 
-                  For ongoing maintenance or small updates later on, we can discuss hourly rates or support packages.
+                  Voor de meeste websites en applicaties geven we de voorkeur aan <strong>projectprijzen</strong>. Dit geeft u zekerheid en gemoedsrust. 
+                  Voor doorlopend onderhoud of kleine updates later kunnen we uurtarieven of ondersteuningspakketten bespreken.
                 </p>
               </CardContent>
             </Card>
@@ -140,16 +140,16 @@ export default function HowPricingWorksPage() {
       {/* CTA Section */}
       <section className="py-20">
         <div className="container px-4 md:px-8 mx-auto max-w-3xl text-center">
-          <h2 className="text-3xl font-bold mb-6">Let's discuss your project</h2>
+          <h2 className="text-3xl font-bold mb-6">Laten we uw project bespreken</h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Ready to see what we can do for you? Request a free, no-obligation quote today.
+            Klaar om te zien wat we voor u kunnen betekenen? Vraag vandaag nog een gratis, vrijblijvende offerte aan.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button size="lg" className="w-full sm:w-auto">Get a Personal Quote</Button>
+              <Button size="lg" className="w-full sm:w-auto">Vraag een persoonlijke offerte</Button>
             </Link>
             <Link href="/pricing">
-              <Button variant="outline" size="lg" className="w-full sm:w-auto">View Pricing Tiers</Button>
+              <Button variant="outline" size="lg" className="w-full sm:w-auto">Bekijk prijzen</Button>
             </Link>
           </div>
         </div>

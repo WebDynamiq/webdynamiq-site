@@ -19,10 +19,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Webdynamiq | Premium Web Solutions",
+    default: "Webdynamiq | Professionele Weboplossingen",
     template: "%s | Webdynamiq"
   },
-  description: "Professional web development agency for small businesses and startups. Premium websites that adapt to your budget.",
+  description: "Professioneel webdesignbureau voor kleine bedrijven en startups. Premium websites die passen bij uw budget.",
   icons: {
     icon: "/convex.svg",
   },
@@ -34,7 +34,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={inter.variable}>
+    <html lang="nl" className={inter.variable}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
       >

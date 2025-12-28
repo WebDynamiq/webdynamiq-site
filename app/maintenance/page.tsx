@@ -5,8 +5,8 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter }
 import { Check } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Maintenance & Support",
-  description: "Keep your website secure and up-to-date with our flexible maintenance plans. Professional support for peace of mind.",
+  title: "Onderhoud & Support",
+  description: "Houd uw website veilig en up-to-date met onze flexibele onderhoudsplannen. Professionele ondersteuning voor gemoedsrust.",
 };
 
 export default function MaintenancePage() {
@@ -15,10 +15,10 @@ export default function MaintenancePage() {
       {/* Hero Section */}
       <section className="py-20 bg-muted/30">
         <div className="container px-4 md:px-8 mx-auto max-w-7xl text-center">
-          <h1 className="text-4xl font-bold tracking-tight mb-6">Peace of Mind for Your Website</h1>
+          <h1 className="text-4xl font-bold tracking-tight mb-6">Gemoedsrust voor uw website</h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Your website is an investment. Protect it with our reliable maintenance and support packages.
-            We handle the technical details so you can focus on your business.
+            Uw website is een investering. Bescherm deze met onze betrouwbare onderhouds- en ondersteuningspakketten.
+            Wij regelen de technische details zodat u zich kunt concentreren op uw bedrijf.
           </p>
         </div>
       </section>
@@ -31,22 +31,22 @@ export default function MaintenancePage() {
             {/* Basic */}
             <Card className="flex flex-col">
               <CardHeader>
-                <CardTitle className="text-2xl">Basic</CardTitle>
-                <CardDescription>Essential security & stability</CardDescription>
+                <CardTitle className="text-2xl">Basis</CardTitle>
+                <CardDescription>Essentiële beveiliging & stabiliteit</CardDescription>
                 <div className="mt-4">
                   <span className="text-3xl font-bold">€75</span>
-                  <span className="text-muted-foreground"> / month</span>
+                  <span className="text-muted-foreground"> / maand</span>
                 </div>
               </CardHeader>
               <CardContent className="flex-1">
                 <ul className="space-y-3">
                   <li className="flex items-start gap-2">
                     <Check className="h-5 w-5 text-primary shrink-0" />
-                    <span className="text-sm">Regular security updates</span>
+                    <span className="text-sm">Regelmatige beveiligingsupdates</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <Check className="h-5 w-5 text-primary shrink-0" />
-                    <span className="text-sm">Daily backups & monitoring</span>
+                    <span className="text-sm">Dagelijkse back-ups & monitoring</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <Check className="h-5 w-5 text-primary shrink-0" />
@@ -54,13 +54,13 @@ export default function MaintenancePage() {
                   </li>
                   <li className="flex items-start gap-2">
                     <Check className="h-5 w-5 text-primary shrink-0" />
-                    <span className="text-sm">Technical bug fixes</span>
+                    <span className="text-sm">Technische bugfixes</span>
                   </li>
                 </ul>
               </CardContent>
               <CardFooter>
                 <Link href="/contact" className="w-full">
-                  <Button className="w-full" variant="outline">Choose Basic</Button>
+                  <Button className="w-full" variant="outline">Kies Basis</Button>
                 </Link>
               </CardFooter>
             </Card>
@@ -68,43 +68,43 @@ export default function MaintenancePage() {
             {/* Growth */}
             <Card className="flex flex-col border-primary relative">
               <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground px-3 py-1 rounded-full text-xs font-medium">
-                Recommended
+                Aanbevolen
               </div>
               <CardHeader>
-                <CardTitle className="text-2xl">Growth</CardTitle>
-                <CardDescription>Active management & updates</CardDescription>
+                <CardTitle className="text-2xl">Groei</CardTitle>
+                <CardDescription>Actief beheer & updates</CardDescription>
                 <div className="mt-4">
                   <span className="text-3xl font-bold">€195</span>
-                  <span className="text-muted-foreground"> / month</span>
+                  <span className="text-muted-foreground"> / maand</span>
                 </div>
               </CardHeader>
               <CardContent className="flex-1">
                 <ul className="space-y-3">
                   <li className="flex items-start gap-2">
                     <Check className="h-5 w-5 text-primary shrink-0" />
-                    <span className="text-sm">Everything in Basic</span>
+                    <span className="text-sm">Alles in Basis</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <Check className="h-5 w-5 text-primary shrink-0" />
-                    <span className="text-sm">2 hours of content updates/month</span>
+                    <span className="text-sm">2 uur content updates/maand</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <Check className="h-5 w-5 text-primary shrink-0" />
-                    <span className="text-sm">Monthly performance report</span>
+                    <span className="text-sm">Maandelijks prestatierapport</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <Check className="h-5 w-5 text-primary shrink-0" />
-                    <span className="text-sm">Priority email support</span>
+                    <span className="text-sm">Prioriteit e-mailondersteuning</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <Check className="h-5 w-5 text-primary shrink-0" />
-                    <span className="text-sm">SEO health checks</span>
+                    <span className="text-sm">SEO gezondheidschecks</span>
                   </li>
                 </ul>
               </CardContent>
               <CardFooter>
                 <Link href="/contact" className="w-full">
-                  <Button className="w-full">Choose Growth</Button>
+                  <Button className="w-full">Kies Groei</Button>
                 </Link>
               </CardFooter>
             </Card>
@@ -112,40 +112,40 @@ export default function MaintenancePage() {
             {/* Custom */}
             <Card className="flex flex-col">
               <CardHeader>
-                <CardTitle className="text-2xl">Custom</CardTitle>
-                <CardDescription>For complex applications</CardDescription>
+                <CardTitle className="text-2xl">Maatwerk</CardTitle>
+                <CardDescription>Voor complexe applicaties</CardDescription>
                 <div className="mt-4">
-                  <span className="text-3xl font-bold">Custom</span>
-                  <span className="text-muted-foreground"> / quote based</span>
+                  <span className="text-3xl font-bold">Op maat</span>
+                  <span className="text-muted-foreground"> / offerte</span>
                 </div>
               </CardHeader>
               <CardContent className="flex-1">
                 <ul className="space-y-3">
                   <li className="flex items-start gap-2">
                     <Check className="h-5 w-5 text-primary shrink-0" />
-                    <span className="text-sm">Full application support</span>
+                    <span className="text-sm">Volledige applicatieondersteuning</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <Check className="h-5 w-5 text-primary shrink-0" />
-                    <span className="text-sm">Custom feature development</span>
+                    <span className="text-sm">Maatwerk feature ontwikkeling</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <Check className="h-5 w-5 text-primary shrink-0" />
-                    <span className="text-sm">Dedicated server management</span>
+                    <span className="text-sm">Toegewijd serverbeheer</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <Check className="h-5 w-5 text-primary shrink-0" />
-                    <span className="text-sm">Emergency response SLA</span>
+                    <span className="text-sm">Noodrespons SLA</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <Check className="h-5 w-5 text-primary shrink-0" />
-                    <span className="text-sm">Consulting & strategy</span>
+                    <span className="text-sm">Consultancy & strategie</span>
                   </li>
                 </ul>
               </CardContent>
               <CardFooter>
                 <Link href="/contact" className="w-full">
-                  <Button className="w-full" variant="outline">Contact Us</Button>
+                  <Button className="w-full" variant="outline">Neem contact op</Button>
                 </Link>
               </CardFooter>
             </Card>
@@ -153,14 +153,14 @@ export default function MaintenancePage() {
 
           <div className="mt-16 text-center max-w-2xl mx-auto">
             <p className="text-base font-medium text-foreground mb-2">
-              Flexible Terms
+              Flexibele Voorwaarden
             </p>
             <p className="text-sm text-muted-foreground mb-8">
-              These packages are indicative. We can tailor a support plan that fits your specific needs and budget. 
-              You are never locked into services you don't need.
+              Deze pakketten zijn indicatief. We kunnen een ondersteuningsplan opstellen dat past bij uw specifieke behoeften en budget. 
+              U zit nooit vast aan diensten die u niet nodig heeft.
             </p>
             <Link href="/contact">
-              <Button size="lg">Discuss Support Options</Button>
+              <Button size="lg">Bespreek ondersteuningsopties</Button>
             </Link>
           </div>
         </div>

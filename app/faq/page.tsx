@@ -9,39 +9,39 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
-  title: "Frequently Asked Questions",
-  description: "Answers to common questions about our web development services, pricing, and process.",
+  title: "Veelgestelde Vragen",
+  description: "Antwoorden op veelgestelde vragen over onze webdevelopment diensten, prijzen en werkwijze.",
 };
 
 export default function FAQPage() {
   const faqs = [
     {
-      question: "Do you only work with large companies?",
-      answer: "Not at all! We specialize in working with small businesses, startups, and local companies. We believe professional web development should be accessible to businesses of all sizes."
+      question: "Werken jullie alleen met grote bedrijven?",
+      answer: "Helemaal niet! Wij zijn gespecialiseerd in het werken met kleine bedrijven, startups en lokale ondernemingen. Wij geloven dat professioneel webdevelopment toegankelijk moet zijn voor bedrijven van elke omvang."
     },
     {
-      question: "What if my budget is limited?",
-      answer: "We pride ourselves on flexibility. If you have a specific budget, let us know. We can often tailor the scope of the project or suggest alternative solutions to meet your financial requirements without compromising on quality."
+      question: "Wat als mijn budget beperkt is?",
+      answer: "Wij zijn trots op onze flexibiliteit. Als u een specifiek budget heeft, laat het ons weten. We kunnen vaak de scope van het project aanpassen of alternatieve oplossingen voorstellen om aan uw financiële eisen te voldoen zonder in te leveren op kwaliteit."
     },
     {
-      question: "Can pricing be adjusted?",
-      answer: "Yes. Our pricing packages are starting points. We provide custom quotes based on your specific needs. If you don't need certain features, you shouldn't pay for them."
+      question: "Kunnen de prijzen worden aangepast?",
+      answer: "Ja. Onze prijspakketten zijn startpunten. We bieden offertes op maat op basis van uw specifieke behoeften. Als u bepaalde functies niet nodig heeft, hoeft u er ook niet voor te betalen."
     },
     {
-      question: "Do you offer ongoing support?",
-      answer: "Absolutely. We offer various support and maintenance packages to ensure your website stays secure, updated, and running smoothly after launch. We're in it for the long haul."
+      question: "Bieden jullie doorlopende ondersteuning?",
+      answer: "Absoluut. We bieden diverse onderhouds- en ondersteuningspakketten om ervoor te zorgen dat uw website veilig, up-to-date en soepel blijft draaien na de lancering. We gaan voor een langdurige samenwerking."
     },
     {
-      question: "How long does a project take?",
-      answer: "Timeline depends on the complexity of the project. A simple business website can be ready in 2-4 weeks, while custom applications or e-commerce stores may take 6-12 weeks. We'll provide a clear timeline in our proposal."
+      question: "Hoe lang duurt een project?",
+      answer: "De tijdlijn hangt af van de complexiteit van het project. Een eenvoudige bedrijfswebsite kan in 2-4 weken klaar zijn, terwijl maatwerk applicaties of webshops 6-12 weken kunnen duren. We geven een duidelijke tijdlijn in ons voorstel."
     },
     {
-      question: "Do you build scalable solutions?",
-      answer: "Yes. We build with growth in mind. Whether you start small and want to add features later, or need a system that can handle thousands of users, we use technologies (like Next.js) that scale with your business."
+      question: "Bouwen jullie schaalbare oplossingen?",
+      answer: "Ja. We bouwen met groei in gedachten. Of u nu klein begint en later functies wilt toevoegen, of een systeem nodig heeft dat duizenden gebruikers aankan, we gebruiken technologieën (zoals Next.js) die met uw bedrijf meegroeien."
     },
     {
-      question: "Will I be able to update the website myself?",
-      answer: "Yes! We typically build websites with a Content Management System (CMS) or user-friendly interface that allows you to easily update text, images, and blog posts without needing to write code."
+      question: "Kan ik de website zelf bijwerken?",
+      answer: "Ja! We bouwen websites doorgaans met een Content Management Systeem (CMS) of gebruiksvriendelijke interface waarmee u eenvoudig tekst, afbeeldingen en blogposts kunt bijwerken zonder code te hoeven schrijven."
     }
   ];
 
@@ -49,9 +49,9 @@ export default function FAQPage() {
     <div className="flex flex-col min-h-screen">
       <section className="py-20 bg-muted/30">
         <div className="container px-4 md:px-8 mx-auto max-w-7xl text-center">
-          <h1 className="text-4xl font-bold tracking-tight mb-6">Frequently Asked Questions</h1>
+          <h1 className="text-4xl font-bold tracking-tight mb-6">Veelgestelde Vragen</h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Got questions? We've got answers. If you don't see what you're looking for, feel free to reach out.
+            Heeft u vragen? Wij hebben antwoorden. Als u niet vindt wat u zoekt, neem dan gerust contact op.
           </p>
         </div>
       </section>
@@ -72,12 +72,12 @@ export default function FAQPage() {
           </Accordion>
 
           <div className="mt-16 text-center bg-primary/5 p-8 rounded-xl">
-            <h3 className="text-xl font-bold mb-4">Still have questions?</h3>
+            <h3 className="text-xl font-bold mb-4">Nog steeds vragen?</h3>
             <p className="text-muted-foreground mb-6">
-              We're happy to chat and clarify anything that's on your mind.
+              We praten graag met u om alles te verduidelijken.
             </p>
             <Link href="/contact">
-              <Button>Contact Us</Button>
+              <Button>Neem contact op</Button>
             </Link>
           </div>
         </div>

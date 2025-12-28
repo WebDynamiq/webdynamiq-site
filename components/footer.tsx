@@ -8,42 +8,42 @@ export function Footer() {
           <div className="space-y-4">
             <h3 className="text-lg font-bold">Webdynamiq</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Premium, professional web solutions adapted to your budget. 
-              Helping businesses grow with human-first digital strategies.
+              Hoogwaardige, professionele weboplossingen aangepast aan uw budget. 
+              Wij helpen bedrijven groeien met mensgerichte digitale strategieën.
             </p>
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4">Company</h4>
+            <h4 className="font-semibold mb-4">Bedrijf</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><Link href="/about" className="hover:text-foreground">About Us</Link></li>
-              <li><Link href="/process" className="hover:text-foreground">How We Work</Link></li>
+              <li><Link href="/about" className="hover:text-foreground">Over ons</Link></li>
+              <li><Link href="/process" className="hover:text-foreground">Onze werkwijze</Link></li>
               <li><Link href="/contact" className="hover:text-foreground">Contact</Link></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4">Services</h4>
+            <h4 className="font-semibold mb-4">Diensten</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><Link href="/services" className="hover:text-foreground">Web Development</Link></li>
+              <li><Link href="/services" className="hover:text-foreground">Webdevelopment</Link></li>
               <li><Link href="/services" className="hover:text-foreground">E-commerce</Link></li>
-              <li><Link href="/maintenance" className="hover:text-foreground">Maintenance & Support</Link></li>
-              <li><Link href="/pricing" className="hover:text-foreground">Pricing</Link></li>
-              <li><Link href="/pricing/how-it-works" className="hover:text-foreground">How Pricing Works</Link></li>
+              <li><Link href="/maintenance" className="hover:text-foreground">Onderhoud & Support</Link></li>
+              <li><Link href="/pricing" className="hover:text-foreground">Tarieven</Link></li>
+              <li><Link href="/pricing/how-it-works" className="hover:text-foreground">Hoe prijzen werken</Link></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4">Legal</h4>
+            <h4 className="font-semibold mb-4">Juridisch</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><Link href="/privacy" className="hover:text-foreground">Privacy Policy</Link></li>
-              <li><Link href="/terms" className="hover:text-foreground">Terms of Service</Link></li>
+              <li><Link href="/privacy" className="hover:text-foreground">Privacybeleid</Link></li>
+              <li><Link href="/terms" className="hover:text-foreground">Algemene Voorwaarden</Link></li>
             </ul>
           </div>
         </div>
         
         <div className="mt-12 pt-8 border-t text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Webdynamiq. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Webdynamiq. Alle rechten voorbehouden.</p>
         </div>
       </div>
     </footer>

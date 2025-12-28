@@ -13,31 +13,31 @@ export function Navbar() {
         
         <div className="hidden md:flex items-center gap-6 text-sm font-medium text-muted-foreground">
           <Link href="/services" className="hover:text-foreground transition-colors">
-            Services
+            Diensten
           </Link>
           <div className="relative group">
             <Link href="/pricing" className="hover:text-foreground transition-colors flex items-center gap-1">
-              Pricing
+              Tarieven
             </Link>
             <div className="absolute left-0 top-full pt-2 hidden group-hover:block w-48">
               <div className="bg-background border rounded-md shadow-md p-2 flex flex-col gap-2">
                 <Link href="/pricing" className="hover:bg-muted px-2 py-1.5 rounded-sm transition-colors">
-                  Overview
+                  Overzicht
                 </Link>
                 <Link href="/pricing/how-it-works" className="hover:bg-muted px-2 py-1.5 rounded-sm transition-colors">
-                  How it Works
+                  Hoe het werkt
                 </Link>
                 <Link href="/maintenance" className="hover:bg-muted px-2 py-1.5 rounded-sm transition-colors">
-                  Maintenance
+                  Onderhoud
                 </Link>
               </div>
             </div>
           </div>
           <Link href="/process" className="hover:text-foreground transition-colors">
-            Process
+            Werkwijze
           </Link>
           <Link href="/about" className="hover:text-foreground transition-colors">
-            About
+            Over ons
           </Link>
           <Link href="/faq" className="hover:text-foreground transition-colors">
             FAQ
@@ -46,7 +46,7 @@ export function Navbar() {
 
         <div className="flex items-center gap-4">
           <Link href="/contact">
-            <Button>Get in Touch</Button>
+            <Button>Neem contact op</Button>
           </Link>
         </div>
       </div>

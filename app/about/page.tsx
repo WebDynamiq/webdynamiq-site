@@ -3,8 +3,8 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "About Us",
-  description: "Webdynamiq is a web development agency focused on helping small businesses grow with professional, affordable digital solutions.",
+  title: "Over Ons",
+  description: "Webdynamiq is een webdevelopment bureau gericht op het helpen van kleine bedrijven om te groeien met professionele, betaalbare digitale oplossingen.",
 };
 
 export default function AboutPage() {
@@ -12,9 +12,9 @@ export default function AboutPage() {
     <div className="flex flex-col min-h-screen">
       <section className="py-20 bg-muted/30">
         <div className="container px-4 md:px-8 mx-auto max-w-7xl text-center">
-          <h1 className="text-4xl font-bold tracking-tight mb-6">About Webdynamiq</h1>
+          <h1 className="text-4xl font-bold tracking-tight mb-6">Over Webdynamiq</h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            We are a digital partner for businesses that value quality, honesty, and flexibility.
+            Wij zijn een digitale partner voor bedrijven die kwaliteit, eerlijkheid en flexibiliteit waarderen.
           </p>
         </div>
       </section>
@@ -23,21 +23,21 @@ export default function AboutPage() {
         <div className="container px-4 md:px-8 mx-auto max-w-7xl">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold mb-6">Our Philosophy</h2>
+              <h2 className="text-3xl font-bold mb-6">Onze Filosofie</h2>
               <div className="space-y-4 text-muted-foreground text-lg leading-relaxed">
                 <p>
-                  At Webdynamiq, we believe that professional web development shouldn't be reserved for large corporations with massive budgets.
+                  Bij Webdynamiq geloven we dat professioneel webdevelopment niet voorbehouden moet zijn aan grote bedrijven met enorme budgetten.
                 </p>
                 <p>
-                  We started this agency to bridge the gap between DIY website builders and expensive enterprise agencies. We offer a middle ground: premium quality, custom solutions, and personal service—at a price that makes sense for growing businesses.
+                  We zijn dit bureau gestart om de kloof te overbruggen tussen doe-het-zelf websitebouwers en dure bureaus. We bieden een middenweg: premium kwaliteit, maatwerkoplossingen en persoonlijke service—voor een prijs die logisch is voor groeiende bedrijven.
                 </p>
                 <p>
-                  We don't just write code; we solve problems. Whether you need to attract more local customers, streamline your booking process, or sell products online, we build the tools to help you succeed.
+                  We schrijven niet alleen code; we lossen problemen op. Of u nu meer lokale klanten wilt aantrekken, uw boekingsproces wilt stroomlijnen of online producten wilt verkopen, wij bouwen de tools om u te helpen slagen.
                 </p>
               </div>
             </div>
             <div className="bg-muted rounded-2xl h-96 flex items-center justify-center border">
-              <span className="text-muted-foreground">Team / Office Image Placeholder</span>
+              <span className="text-muted-foreground">Team / Kantoor Illustratie</span>
             </div>
           </div>
         </div>
@@ -45,24 +45,24 @@ export default function AboutPage() {
 
       <section className="py-20 bg-primary/5">
         <div className="container px-4 md:px-8 mx-auto max-w-7xl text-center">
-          <h2 className="text-3xl font-bold mb-12">Our Core Values</h2>
+          <h2 className="text-3xl font-bold mb-12">Onze Kernwaarden</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-background p-8 rounded-xl border">
-              <h3 className="text-xl font-bold mb-3">Transparency</h3>
+              <h3 className="text-xl font-bold mb-3">Transparantie</h3>
               <p className="text-muted-foreground">
-                No hidden costs, no technical jargon designed to confuse. We explain everything in plain language.
+                Geen verborgen kosten, geen technisch jargon bedoeld om te verwarren. We leggen alles uit in begrijpelijke taal.
               </p>
             </div>
             <div className="bg-background p-8 rounded-xl border">
-              <h3 className="text-xl font-bold mb-3">Flexibility</h3>
+              <h3 className="text-xl font-bold mb-3">Flexibiliteit</h3>
               <p className="text-muted-foreground">
-                We adapt to your needs and budget. We believe in finding solutions, not creating barriers.
+                We passen ons aan uw behoeften en budget aan. We geloven in het vinden van oplossingen, niet het creëren van barrières.
               </p>
             </div>
             <div className="bg-background p-8 rounded-xl border">
-              <h3 className="text-xl font-bold mb-3">Quality</h3>
+              <h3 className="text-xl font-bold mb-3">Kwaliteit</h3>
               <p className="text-muted-foreground">
-                We take pride in our work. Every line of code and every pixel is crafted with care and attention to detail.
+                We zijn trots op ons werk. Elke regel code en elke pixel is met zorg en aandacht voor detail gemaakt.
               </p>
             </div>
           </div>
@@ -71,12 +71,12 @@ export default function AboutPage() {
 
       <section className="py-20">
         <div className="container px-4 md:px-8 mx-auto max-w-7xl text-center">
-          <h2 className="text-3xl font-bold mb-6">Let's work together</h2>
+          <h2 className="text-3xl font-bold mb-6">Laten we samenwerken</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto mb-8">
-            Whether you have a clear vision or just a rough idea, we're here to help you take the next step.
+            Of u nu een duidelijke visie heeft of slechts een ruw idee, wij zijn er om u te helpen de volgende stap te zetten.
           </p>
           <Link href="/contact">
-            <Button size="lg">Get in Touch</Button>
+            <Button size="lg">Neem contact op</Button>
           </Link>
         </div>
       </section>

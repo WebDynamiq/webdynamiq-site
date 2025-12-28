@@ -3,41 +3,41 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "How We Work",
-  description: "Our transparent web development process. From understanding your needs to launch and ongoing support.",
+  title: "Onze Werkwijze",
+  description: "Ons transparante webdevelopment proces. Van het begrijpen van uw behoeften tot lancering en doorlopende ondersteuning.",
 };
 
 export default function ProcessPage() {
   const steps = [
     {
       number: "01",
-      title: "Discovery & Strategy",
-      description: "We start by listening. We discuss your business goals, target audience, and budget to define the scope of the project."
+      title: "Ontdekking & Strategie",
+      description: "We beginnen met luisteren. We bespreken uw bedrijfsdoelen, doelgroep en budget om de scope van het project te bepalen."
     },
     {
       number: "02",
-      title: "Proposal & Planning",
-      description: "We provide a transparent proposal with clear deliverables and pricing. No hidden fees or surprises."
+      title: "Voorstel & Planning",
+      description: "We bieden een transparant voorstel met duidelijke resultaten en prijzen. Geen verborgen kosten of verrassingen."
     },
     {
       number: "03",
-      title: "Design & Development",
-      description: "We build your solution using modern technologies, keeping you updated with regular progress reports."
+      title: "Ontwerp & Ontwikkeling",
+      description: "We bouwen uw oplossing met moderne technologieën en houden u op de hoogte met regelmatige voortgangsrapporten."
     },
     {
       number: "04",
-      title: "Feedback & Refinement",
-      description: "We review the work together and make necessary adjustments to ensure everything meets your expectations."
+      title: "Feedback & Verfijning",
+      description: "We bekijken het werk samen en maken de nodige aanpassingen om ervoor te zorgen dat alles aan uw verwachtingen voldoet."
     },
     {
       number: "05",
-      title: "Launch & Training",
-      description: "We handle the technical launch and show you how to manage your new website or application."
+      title: "Lancering & Training",
+      description: "We regelen de technische lancering en laten u zien hoe u uw nieuwe website of applicatie beheert."
     },
     {
       number: "06",
-      title: "Ongoing Support",
-      description: "We remain available for updates, security checks, and any future improvements you might need."
+      title: "Doorlopende Ondersteuning",
+      description: "We blijven beschikbaar voor updates, beveiligingschecks en eventuele toekomstige verbeteringen die u nodig heeft."
     }
   ];
 
@@ -45,9 +45,9 @@ export default function ProcessPage() {
     <div className="flex flex-col min-h-screen">
       <section className="py-20 bg-muted/30">
         <div className="container px-4 md:px-8 mx-auto max-w-7xl text-center">
-          <h1 className="text-4xl font-bold tracking-tight mb-6">How We Work</h1>
+          <h1 className="text-4xl font-bold tracking-tight mb-6">Onze Werkwijze</h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            A transparent, collaborative process designed to deliver results without the stress.
+            Een transparant, samenwerkingsgericht proces ontworpen om resultaten te leveren zonder stress.
           </p>
         </div>
       </section>
@@ -65,9 +65,9 @@ export default function ProcessPage() {
           </div>
 
           <div className="mt-20 text-center">
-            <h2 className="text-2xl font-bold mb-6">Ready to start the conversation?</h2>
+            <h2 className="text-2xl font-bold mb-6">Klaar om het gesprek te starten?</h2>
             <Link href="/contact">
-              <Button size="lg">Schedule a Call</Button>
+              <Button size="lg">Plan een gesprek</Button>
             </Link>
           </div>
         </div>
