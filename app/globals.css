@@ -116,6 +116,22 @@
   --sidebar-ring: oklch(0.551 0.027 264.364);
 }
 
+@layer utilities {
+  .bg-dots {
+    background-image: radial-gradient(currentColor 2px, transparent 2px);
+    background-size: 20px 20px;
+  }
+
+  .bg-grid-pattern {
+    background-image: linear-gradient(to right, currentColor 1px, transparent 1px), linear-gradient(to bottom, currentColor 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+
+  .bg-lines {
+    background-image: repeating-linear-gradient(45deg, currentColor, currentColor 2px, transparent 2px, transparent 10px);
+  }
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;

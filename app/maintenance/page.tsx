@@ -13,13 +13,17 @@ export default function MaintenancePage() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section className="py-20 bg-muted/30">
-        <div className="container px-4 md:px-8 mx-auto max-w-7xl text-center">
-          <h1 className="text-4xl font-bold tracking-tight mb-6">Technische zekerheid, zodat u kunt ondernemen</h1>
-          <p className="text-xl font-medium text-foreground max-w-2xl mx-auto mb-4">
+      <section className="py-24 bg-linear-to-b from-muted/50 to-background relative overflow-hidden">
+        <div className="absolute inset-0 bg-lines text-primary/10 pointer-events-none mask-[linear-gradient(to_bottom,black,transparent)]"></div>
+        <div className="container px-4 md:px-8 mx-auto max-w-7xl text-center relative z-10">
+          <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 text-balance">
+            Technische zekerheid, <br className="hidden md:block" />
+            <span className="text-primary">zodat u kunt ondernemen</span>
+          </h1>
+          <p className="text-xl font-medium text-foreground max-w-2xl mx-auto mb-4 text-balance">
             Uw website is een investering die bescherming verdient.
           </p>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-balance">
             Wij regelen de updates, beveiliging en backups. 
             <br className="hidden sm:block" />
             U focust op uw klanten.
@@ -70,8 +74,8 @@ export default function MaintenancePage() {
             </Card>
 
             {/* Growth */}
-            <Card className="flex flex-col border-primary relative">
-              <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground px-3 py-1 rounded-full text-xs font-medium">
+            <Card className="flex flex-col border-primary relative bg-primary/5 shadow-lg">
+              <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground px-3 py-1 rounded-full text-xs font-medium shadow-sm">
                 Aanbevolen
               </div>
               <CardHeader>

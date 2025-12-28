@@ -13,13 +13,17 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <div className="flex flex-col min-h-screen">
-      <section className="py-20 bg-muted/30">
-        <div className="container px-4 md:px-8 mx-auto max-w-7xl text-center">
-          <h1 className="text-4xl font-bold tracking-tight mb-6">Start uw digitale groei vandaag</h1>
-          <p className="text-xl font-medium text-foreground max-w-2xl mx-auto mb-4">
+      <section className="py-24 bg-gradient-to-b from-background to-muted/30 relative overflow-hidden">
+        <div className="absolute inset-0 bg-dots text-primary/5 pointer-events-none"></div>
+        <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px] [mask-image:linear-gradient(to_bottom,black,transparent)]"></div>
+        <div className="container px-4 md:px-8 mx-auto max-w-7xl text-center relative z-10">
+          <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 text-balance">
+            Start uw digitale groei <span className="text-primary">vandaag</span>
+          </h1>
+          <p className="text-xl font-medium text-foreground max-w-2xl mx-auto mb-4 text-balance">
             Heeft u een project in gedachten? Laten we praten.
           </p>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-balance">
             Geen verplichtingen, geen sales-push. 
             <br className="hidden sm:block" />
             Gewoon een eerlijk gesprek over uw doelen.
@@ -27,7 +31,8 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <section className="py-20">
+      <section className="py-24 relative">
+        <div className="absolute inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)] opacity-50 -z-10"></div>
         <div className="container px-4 md:px-8 mx-auto max-w-7xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             
@@ -61,7 +66,7 @@ export default function ContactPage() {
             </div>
 
             {/* Contact Form */}
-            <Card>
+            <Card className="shadow-lg border-muted/40 bg-background/60 backdrop-blur-sm">
               <CardHeader>
                 <CardTitle>Stuur ons een bericht</CardTitle>
                 <CardDescription>Vul het onderstaande formulier in en we nemen zo snel mogelijk contact met u op.</CardDescription>

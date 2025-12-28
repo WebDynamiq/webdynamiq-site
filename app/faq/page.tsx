@@ -47,13 +47,16 @@ export default function FAQPage() {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <section className="py-20 bg-muted/30">
-        <div className="container px-4 md:px-8 mx-auto max-w-7xl text-center">
-          <h1 className="text-4xl font-bold tracking-tight mb-6">Duidelijkheid vooraf, geen vragen achteraf</h1>
-          <p className="text-xl font-medium text-foreground max-w-2xl mx-auto mb-4">
+      <section className="py-24 md:py-32 relative overflow-hidden bg-linear-to-br from-muted via-background to-background">        
+        <div className="absolute inset-0 bg-dots text-primary/10 pointer-events-none"></div> 
+        <div className="container px-4 md:px-8 mx-auto max-w-7xl text-center relative z-10">
+          <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 text-balance">
+            Duidelijkheid vooraf, <span className="text-primary">geen vragen achteraf</span>
+          </h1>
+          <p className="text-xl font-medium text-foreground max-w-2xl mx-auto mb-4 text-balance">
             Antwoorden op de meest gestelde vragen.
           </p>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-balance">
             Staat uw vraag er niet tussen? Neem gerust contact op.
           </p>
         </div>
@@ -74,13 +77,17 @@ export default function FAQPage() {
             ))}
           </Accordion>
 
-          <div className="mt-16 text-center">
-            <p className="text-muted-foreground mb-6">
-              Nog steeds vragen? Wij staan klaar om te helpen.
-            </p>
-            <Link href="/contact">
-              <Button>Stel uw vraag</Button>
-            </Link>
+          <div className="mt-16 relative rounded-2xl overflow-hidden bg-primary/5 p-8 md:p-12 text-center">
+            <div className="absolute inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px] opacity-50"></div>
+            <div className="relative z-10">
+              <h3 className="text-2xl font-bold mb-4">Nog steeds vragen?</h3>
+              <p className="text-muted-foreground mb-8 max-w-xl mx-auto">
+                Wij staan klaar om te helpen. Neem contact op voor een persoonlijk antwoord.
+              </p>
+              <Link href="/contact">
+                <Button size="lg">Stel uw vraag</Button>
+              </Link>
+            </div>
           </div>
         </div>
       </section>

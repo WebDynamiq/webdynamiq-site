@@ -7,28 +7,31 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section className="py-20 md:py-32 bg-gradient-to-b from-background to-muted/30">
-        <div className="container px-4 md:px-8 mx-auto max-w-7xl text-center">
-          <Badge variant="secondary" className="mb-6">
+      <section className="py-24 md:py-32 relative overflow-hidden bg-linear-to-br from-muted via-background to-background">        
+        <div className="absolute inset-0 bg-dots text-primary/10 pointer-events-none"></div> 
+        <div className="container px-4 md:px-8 mx-auto max-w-7xl text-center relative z-10">
+          <Badge variant="secondary" className="mb-6 px-4 py-1.5 text-sm font-medium border-primary/20 bg-primary/5 text-primary">
             Webdynamiq Agency
           </Badge>
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6">
+          <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-8 text-balance">
             Premium webdesign dat <br className="hidden md:block" />
-            <span className="text-primary">meegroeit met uw ambities</span>
+            <span className="bg-clip-text text-transparent bg-linear-to-r from-primary to-primary/60">
+              meegroeit met uw ambities
+            </span>
           </h1>
-          <p className="text-xl font-medium text-foreground max-w-2xl mx-auto mb-4">
+          <p className="text-xl md:text-2xl font-medium text-foreground max-w-2xl mx-auto mb-6 text-balance">
             Professionele kwaliteit zonder dure enterprise-prijzen.
           </p>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-10">
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-10 text-balance">
             Geen vaste pakketten die niet passen. <br className="hidden sm:block" />
-            We bekijken samen wat u nodig heeft — en wat haalbaar is binnen uw budget.
+            We bekijken samen wat u nodig heeft en wat haalbaar is binnen uw budget.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
-              <Button size="lg" className="w-full sm:w-auto">Start uw project</Button>
+              <Button size="lg" className="w-full sm:w-auto h-12 px-8 text-base shadow-lg shadow-primary/20">Start uw project</Button>
             </Link>
             <Link href="/services">
-              <Button variant="outline" size="lg" className="w-full sm:w-auto">Bekijk diensten</Button>
+              <Button variant="outline" size="lg" className="w-full sm:w-auto h-12 px-8 text-base">Bekijk diensten</Button>
             </Link>
           </div>
         </div>
@@ -96,11 +99,12 @@ export default function Home() {
       </section>
 
       {/* Why Us */}
-      <section className="py-20 bg-muted/30">
-        <div className="container px-4 md:px-8 mx-auto max-w-7xl">
+      <section className="py-24 bg-primary/5 relative">
+        <div className="absolute inset-0 bg-lines text-primary/5 pointer-events-none mask-[linear-gradient(to_bottom,black,transparent)]"></div>
+        <div className="container px-4 md:px-8 mx-auto max-w-7xl relative z-10">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold mb-6">Waarom kiezen voor Webdynamiq?</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-8">Waarom kiezen voor Webdynamiq?</h2>
               <div className="space-y-8">
                 <div className="flex gap-4">
                   <div className="h-10 w-10 rounded-full bg-primary/10 flex items-center justify-center shrink-0">

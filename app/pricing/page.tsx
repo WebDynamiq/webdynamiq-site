@@ -12,13 +12,17 @@ export const metadata: Metadata = {
 export default function PricingPage() {
   return (
     <div className="flex flex-col min-h-screen">
-      <section className="py-20 bg-muted/30">
-        <div className="container px-4 md:px-8 mx-auto max-w-7xl text-center">
-          <h1 className="text-4xl font-bold tracking-tight mb-6">Transparante tarieven die werken voor uw situatie</h1>
-          <p className="text-xl font-medium text-foreground max-w-2xl mx-auto mb-4">
+      <section className="py-24 bg-linear-to-b from-muted/50 to-background relative overflow-hidden">
+        <div className="absolute inset-0 bg-lines text-primary/10 pointer-events-none mask-[linear-gradient(to_bottom,black,transparent)]"></div>
+        <div className="container px-4 md:px-8 mx-auto max-w-7xl text-center relative z-10">
+          <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 text-balance">
+            Transparante tarieven die <br className="hidden md:block" />
+            <span className="text-primary">werken voor uw situatie</span>
+          </h1>
+          <p className="text-xl font-medium text-foreground max-w-2xl mx-auto mb-4 text-balance">
             Professionele kwaliteit zonder onverwachte kosten.
           </p>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-balance">
             Geen verborgen kleine lettertjes. 
             <br className="hidden sm:block" />
             U weet vooraf precies waar u aan toe bent.
@@ -34,7 +38,7 @@ export default function PricingPage() {
             <p className="text-lg text-muted-foreground leading-relaxed">
               Onze tarieven zijn richtlijnen, geen vaste grenzen.
               <br />
-              Elk project is anders — daarom stemmen we functionaliteit, scope en prijs samen af.
+              Elk project is anders. Daarom stemmen we functionaliteit, scope en prijs samen af.
             </p>
           </div>
 
@@ -78,8 +82,8 @@ export default function PricingPage() {
             </Card>
 
             {/* Tier 2: Professioneel */}
-            <Card className="flex flex-col border-primary relative">
-              <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground px-3 py-1 rounded-full text-xs font-medium">
+            <Card className="flex flex-col border-primary relative border">
+              <div className="absolute -top-1 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground px-3 py-1 rounded-bl-md rounded-br-md text-xs font-medium">
                 Meest Gekozen
               </div>
               <CardHeader>
@@ -180,8 +184,9 @@ export default function PricingPage() {
           </div>
 
           {/* Maatwerk Section */}
-          <div className="mt-16 bg-muted/50 rounded-2xl p-8 md:p-12 border">
-            <div className="flex flex-col md:flex-row gap-8 items-center justify-between">
+          <div className="mt-16 bg-gradient-to-r from-muted/50 to-background border rounded-2xl p-8 md:p-12 relative overflow-hidden">
+            <div className="absolute right-0 top-0 h-full w-1/3 bg-gradient-to-l from-primary/5 to-transparent"></div>
+            <div className="flex flex-col md:flex-row gap-8 items-center justify-between relative z-10">
               <div className="space-y-4 max-w-2xl">
                 <h2 className="text-3xl font-bold">Maatwerk</h2>
                 <p className="text-lg text-muted-foreground">

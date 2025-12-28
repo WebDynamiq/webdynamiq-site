@@ -12,15 +12,16 @@ export default function HowPricingWorksPage() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section className="py-20 bg-muted/30">
-        <div className="container px-4 md:px-8 mx-auto max-w-4xl text-center">
-          <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">
+      <section className="py-24 bg-linear-to-b from-muted/50 to-background relative overflow-hidden">
+        <div className="absolute inset-0 bg-lines text-primary/10 pointer-events-none mask-[linear-gradient(to_bottom,black,transparent)]"></div>
+        <div className="container px-4 md:px-8 mx-auto max-w-4xl text-center relative z-10">
+          <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 text-balance">
             Een prijsmodel gebaseerd op <span className="text-primary">vertrouwen en waarde</span>
           </h1>
-          <p className="text-xl font-medium text-foreground max-w-2xl mx-auto mb-4">
+          <p className="text-xl font-medium text-foreground max-w-2xl mx-auto mb-4 text-balance">
             Wij geloven dat professioneel webdevelopment toegankelijk moet zijn.
           </p>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-balance">
             Geen 'uurtje-factuurtje' mentaliteit, maar een partnerschap gericht op resultaat.
           </p>
         </div>
@@ -45,7 +46,7 @@ export default function HowPricingWorksPage() {
                 <p>
                   Wij werken met een slanke structuur.
                   <br />
-                  Dat betekent dat u betaalt voor deskundige ontwikkeling en persoonlijke service—niet voor dure kantoorkosten of accountmanagers.
+                  Dat betekent dat u betaalt voor deskundige ontwikkeling en persoonlijke service, niet voor dure kantoorkosten of accountmanagers.
                 </p>
               </div>
             </div>
@@ -54,14 +55,14 @@ export default function HowPricingWorksPage() {
       </section>
 
       {/* The Process Steps */}
-      <section className="py-20 bg-background border-y">
-        <div className="container px-4 md:px-8 mx-auto max-w-4xl">
+      <section className="py-24 relative overflow-hidden border-y">
+        <div className="container px-4 md:px-8 mx-auto max-w-4xl relative z-10">
           <h2 className="text-3xl font-bold mb-12 text-center">Hoe wij uw prijs bepalen</h2>
           
           <div className="space-y-8">
             {/* Step 1 */}
             <div className="flex flex-col md:flex-row gap-6 items-start">
-              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold text-xl">
+              <div className="shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold text-xl">
                 1
               </div>
               <div>
@@ -76,7 +77,7 @@ export default function HowPricingWorksPage() {
 
             {/* Step 2 */}
             <div className="flex flex-col md:flex-row gap-6 items-start">
-              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold text-xl">
+              <div className="shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold text-xl">
                 2
               </div>
               <div>
@@ -91,13 +92,13 @@ export default function HowPricingWorksPage() {
 
             {/* Step 3 */}
             <div className="flex flex-col md:flex-row gap-6 items-start">
-              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold text-xl">
+              <div className="shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold text-xl">
                 3
               </div>
               <div>
                 <h3 className="text-xl font-bold mb-2">Flexibiliteit & Aanpassingen</h3>
                 <p className="text-muted-foreground">
-                  Onze vanafprijzen zijn precies dat—een startpunt. Als het voorstel uw budget overschrijdt, lopen we niet zomaar weg. 
+                  Onze vanafprijzen zijn precies dat, een startpunt. Als het voorstel uw budget overschrijdt, lopen we niet zomaar weg. 
                   <br />
                   We zoeken naar oplossingen. Kunnen we het project faseren? Kunnen we een functie vereenvoudigen? We werken met u samen om de gulden middenweg te vinden.
                 </p>
@@ -106,7 +107,7 @@ export default function HowPricingWorksPage() {
 
             {/* Step 4 */}
             <div className="flex flex-col md:flex-row gap-6 items-start">
-              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold text-xl">
+              <div className="shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold text-xl">
                 4
               </div>
               <div>

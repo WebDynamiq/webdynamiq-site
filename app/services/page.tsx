@@ -12,13 +12,17 @@ export const metadata: Metadata = {
 export default function ServicesPage() {
   return (
     <div className="flex flex-col min-h-screen">
-      <section className="py-20 bg-muted/30">
+      <section className="py-24 bg-linear-to-br from-muted via-background to-background relative overflow-hidden">
+        <div className="absolute inset-0 bg-dots text-primary/10 pointer-events-none"></div>
+        <div className="absolute top-0 right-0 -z-10 h-125] w-125 bg-primary/5 rounded-full blur-3xl opacity-50"></div>
         <div className="container px-4 md:px-8 mx-auto max-w-7xl text-center">
-          <h1 className="text-4xl font-bold tracking-tight mb-6">Weboplossingen die uw bedrijf versterken</h1>
-          <p className="text-xl font-medium text-foreground max-w-2xl mx-auto mb-4">
+          <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 text-balance">
+            Weboplossingen die <span className="text-primary">uw bedrijf versterken</span>
+          </h1>
+          <p className="text-xl font-medium text-foreground max-w-2xl mx-auto mb-4 text-balance">
             Van slimme bedrijfswebsites tot complexe maatwerkapplicaties.
           </p>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-balance">
             Wij bouwen niet zomaar een site. 
             <br className="hidden sm:block" />
             Wij bouwen uw digitale toekomst, stap voor stap en binnen uw mogelijkheden.
@@ -26,7 +30,7 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      <section className="py-20">
+      <section className="py-24">
         <div className="container px-4 md:px-8 mx-auto max-w-7xl space-y-24">
           
           {/* Business Websites */}
@@ -132,15 +136,16 @@ export default function ServicesPage() {
           </div>
 
           {/* Support */}
-          <div className="bg-primary/5 rounded-2xl p-8 md:p-12 text-center">
-            <h2 className="text-2xl font-bold mb-4">Doorlopende Ondersteuning & Onderhoud</h2>
-            <p className="text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed">
+          <div className="bg-linear-to-br from-primary/10 to-primary/5 border border-primary/10 rounded-3xl p-8 md:p-16 text-center relative overflow-hidden">
+            <div className="absolute top-0 left-0 w-full h-1 bg-linear-to-r from-transparent via-primary/20 to-transparent"></div>
+            <h2 className="text-3xl font-bold mb-4">Doorlopende Ondersteuning & Onderhoud</h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed text-lg">
               Wij lanceren niet zomaar om daarna te vertrekken. 
               <br />
               Wij bieden doorlopende ondersteuningspakketten om uw website veilig, up-to-date en soepel draaiende te houden.
             </p>
             <Link href="/contact">
-              <Button variant="outline">Vraag naar support</Button>
+              <Button variant="outline" size="lg" className="bg-background/50 backdrop-blur-sm border-primary/20 hover:bg-background/80">Vraag naar support</Button>
             </Link>
           </div>
 
