@@ -14,14 +14,14 @@ export default function PrivacyPage() {
         
         <h2 className="text-xl font-semibold mt-8 mb-4">1. Inleiding</h2>
         <p className="mb-4">
-          Welkom bij Webdynamiq. Wij respecteren uw privacy en zetten ons in voor de bescherming van uw persoonsgegevens. 
-          Dit privacybeleid informeert u over hoe wij met uw persoonsgegevens omgaan wanneer u onze website bezoekt 
+          Welkom bij Webdynamiq. Ik respecteer uw privacy en zet mij in voor de bescherming van uw persoonsgegevens. 
+          Dit privacybeleid informeert u over hoe ik met uw persoonsgegevens omga wanneer u mijn website bezoekt 
           en vertelt u over uw privacyrechten en hoe de wet u beschermt.
         </p>
 
-        <h2 className="text-xl font-semibold mt-8 mb-4">2. Gegevens die we verzamelen</h2>
+        <h2 className="text-xl font-semibold mt-8 mb-4">2. Gegevens die ik verzamel</h2>
         <p className="mb-4">
-          We kunnen verschillende soorten persoonsgegevens over u verzamelen, gebruiken, opslaan en overdragen, die we als volgt hebben gegroepeerd:
+          Ik kan verschillende soorten persoonsgegevens over u verzamelen, gebruiken, opslaan en overdragen, die ik als volgt heb gegroepeerd:
         </p>
         <ul className="list-disc list-inside mb-4 space-y-2">
           <li>Identiteitsgegevens omvatten voornaam, achternaam, gebruikersnaam of soortgelijke identificatie.</li>
@@ -29,19 +29,19 @@ export default function PrivacyPage() {
           <li>Technische gegevens omvatten internetprotocol (IP) adres, browsertype en -versie, tijdzone-instelling en locatie, browser plug-in types en versies, besturingssysteem en platform en andere technologie op de apparaten die u gebruikt om deze website te bezoeken.</li>
         </ul>
 
-        <h2 className="text-xl font-semibold mt-8 mb-4">3. Hoe we uw gegevens gebruiken</h2>
+        <h2 className="text-xl font-semibold mt-8 mb-4">3. Hoe ik uw gegevens gebruik</h2>
         <p className="mb-4">
-          We gebruiken uw persoonsgegevens alleen wanneer de wet ons dat toestaat. Meestal gebruiken we uw persoonsgegevens in de volgende omstandigheden:
+          Ik gebruik uw persoonsgegevens alleen wanneer de wet mij dat toestaat. Meestal gebruik ik uw persoonsgegevens in de volgende omstandigheden:
         </p>
         <ul className="list-disc list-inside mb-4 space-y-2">
-          <li>Waar we het contract moeten uitvoeren dat we met u gaan sluiten of hebben gesloten.</li>
-          <li>Waar het noodzakelijk is voor onze gerechtvaardigde belangen (of die van een derde partij) en uw belangen en grondrechten niet zwaarder wegen dan die belangen.</li>
-          <li>Waar we moeten voldoen aan een wettelijke of regelgevende verplichting.</li>
+          <li>Waar ik het contract moet uitvoeren dat ik met u ga sluiten of heb gesloten.</li>
+          <li>Waar het noodzakelijk is voor mijn gerechtvaardigde belangen (of die van een derde partij) en uw belangen en grondrechten niet zwaarder wegen dan die belangen.</li>
+          <li>Waar ik moet voldoen aan een wettelijke of regelgevende verplichting.</li>
         </ul>
 
         <h2 className="text-xl font-semibold mt-8 mb-4">4. Neem contact op</h2>
         <p className="mb-4">
-          Als u vragen heeft over dit privacybeleid of onze privacypraktijken, neem dan contact met ons op via hello@webdynamiq.com.
+          Als u vragen heeft over dit privacybeleid of mijn privacypraktijken, neem dan contact met mij op via hello@webdynamiq.com.
         </p>
       </div>
     </div>

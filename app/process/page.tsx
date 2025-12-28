@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 export const metadata: Metadata = {
   title: "Onze Werkwijze",
   description:
-    "Ons transparante webdevelopment proces. Van het begrijpen van uw behoeften tot lancering en doorlopende ondersteuning.",
+    "Mijn transparante webdevelopment proces. Van het begrijpen van uw behoeften tot lancering en doorlopende ondersteuning.",
 };
 
 export default function ProcessPage() {
@@ -14,37 +14,37 @@ export default function ProcessPage() {
       number: "01",
       title: "Ontdekking & Strategie",
       description:
-        "We beginnen met luisteren. We bespreken uw bedrijfsdoelen, doelgroep en budget om de scope van het project te bepalen.",
+        "Ik begin met luisteren. Ik bespreek uw bedrijfsdoelen, doelgroep en budget om de scope van het project te bepalen.",
     },
     {
       number: "02",
       title: "Voorstel & Planning",
       description:
-        "We bieden een transparant voorstel met duidelijke resultaten en prijzen. Geen verborgen kosten of verrassingen.",
+        "Ik bied een transparant voorstel met duidelijke resultaten en prijzen. Geen verborgen kosten of verrassingen.",
     },
     {
       number: "03",
       title: "Ontwerp & Ontwikkeling",
       description:
-        "We bouwen uw oplossing met moderne technologieën en houden u op de hoogte met regelmatige voortgangsrapporten.",
+        "Ik bouw uw oplossing met moderne technologieën en houd u op de hoogte met regelmatige voortgangsrapporten.",
     },
     {
       number: "04",
       title: "Feedback & Verfijning",
       description:
-        "We bekijken het werk samen en maken de nodige aanpassingen om ervoor te zorgen dat alles aan uw verwachtingen voldoet.",
+        "Ik bekijk het werk samen met u en maak de nodige aanpassingen om ervoor te zorgen dat alles aan uw verwachtingen voldoet.",
     },
     {
       number: "05",
       title: "Lancering & Training",
       description:
-        "We regelen de technische lancering en laten u zien hoe u uw nieuwe website of applicatie beheert.",
+        "Ik regel de technische lancering en laat u zien hoe u uw nieuwe website of applicatie beheert.",
     },
     {
       number: "06",
       title: "Doorlopende Ondersteuning",
       description:
-        "We blijven beschikbaar voor updates, beveiligingschecks en eventuele toekomstige verbeteringen die u nodig heeft.",
+        "Ik blijf beschikbaar voor updates, beveiligingschecks en eventuele toekomstige verbeteringen die u nodig heeft.",
     },
   ];
 

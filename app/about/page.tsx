@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
 export const metadata: Metadata = {
-  title: "Over Ons",
+  title: "Over Mij",
   description:
     "Webdynamiq is een webdevelopment bureau gericht op het helpen van kleine bedrijven om te groeien met professionele, betaalbare digitale oplossingen.",
 };
@@ -22,7 +22,7 @@ export default function AboutPage() {
             <span className="text-primary">duurzame groei</span>
           </h1>
           <p className="text-xl font-medium text-foreground max-w-2xl mx-auto mb-4 text-balance">
-            Wij zijn een bureau dat gelooft in kwaliteit, eerlijkheid en
+            Ik ben een freelancer die gelooft in kwaliteit, eerlijkheid en
             flexibiliteit.
           </p>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-balance">
@@ -36,16 +36,16 @@ export default function AboutPage() {
         <div className="container px-4 md:px-8 mx-auto max-w-7xl">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold mb-6">Onze Missie</h2>
+              <h2 className="text-3xl font-bold mb-6">Mijn Missie</h2>
               <div className="space-y-4 text-muted-foreground text-lg leading-relaxed">
                 <p>
-                  Bij Webdynamiq geloven we dat professioneel webdevelopment
+                  Bij Webdynamiq geloof ik dat professioneel webdevelopment
                   niet voorbehouden moet zijn aan grote bedrijven met enorme
                   budgetten.
                 </p>
                 <p>
-                  We zijn dit bureau gestart om de kloof te overbruggen tussen
-                  doe-het-zelf websitebouwers en dure bureaus. We bieden een
+                  Ik ben dit bureau gestart om de kloof te overbruggen tussen
+                  doe-het-zelf websitebouwers en dure bureaus. Ik bied een
                   middenweg:{" "}
                   <strong>
                     premium kwaliteit, maatwerkoplossingen en persoonlijke
@@ -54,9 +54,9 @@ export default function AboutPage() {
                   voor een prijs die logisch is voor groeiende bedrijven.
                 </p>
                 <p>
-                  We schrijven niet alleen code; we lossen problemen op. Of u nu
+                  Ik schrijf niet alleen code; ik los problemen op. Of u nu
                   meer lokale klanten wilt aantrekken, uw boekingsproces wilt
-                  stroomlijnen of online producten wilt verkopen, wij bouwen de
+                  stroomlijnen of online producten wilt verkopen, ik bouw de
                   tools om u te helpen slagen.
                 </p>
               </div>
@@ -69,7 +69,7 @@ export default function AboutPage() {
               </div>
               <div className="absolute inset-0 flex items-center justify-center">
                 <span className="text-muted-foreground font-medium relative z-10">
-                  Team / Kantoor Illustratie
+                  Werkplek Illustratie
                 </span>
               </div>
             </div>
@@ -83,9 +83,9 @@ export default function AboutPage() {
         <div className="absolute inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)] opacity-50"></div>
         <div className="container px-4 md:px-8 mx-auto max-w-7xl relative z-10">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold mb-4">Waar wij voor staan</h2>
+            <h2 className="text-3xl font-bold mb-4">Waar ik voor sta</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Onze kernwaarden vormen de basis van elk project dat we aannemen.
+              Mijn kernwaarden vormen de basis van elk project dat ik aanneem.
             </p>
           </div>
 
@@ -95,7 +95,7 @@ export default function AboutPage() {
                 <h3 className="text-xl font-bold mb-3">Transparantie</h3>
                 <p className="text-muted-foreground">
                   Geen verborgen kosten, geen technisch jargon om u te
-                  verwarren. We communiceren open en eerlijk over prijzen,
+                  verwarren. Ik communiceer open en eerlijk over prijzen,
                   tijdlijnen en mogelijkheden.
                 </p>
               </CardContent>
@@ -104,7 +104,7 @@ export default function AboutPage() {
               <CardContent className="pt-8">
                 <h3 className="text-xl font-bold mb-3">Kwaliteit</h3>
                 <p className="text-muted-foreground">
-                  We leveren geen half werk. We bouwen robuuste, veilige en
+                  Ik lever geen half werk. Ik bouw robuuste, veilige en
                   snelle websites die voldoen aan de hoogste standaarden in de
                   industrie.
                 </p>
@@ -114,8 +114,8 @@ export default function AboutPage() {
               <CardContent className="pt-8">
                 <h3 className="text-xl font-bold mb-3">Partnerschap</h3>
                 <p className="text-muted-foreground">
-                  Wij zien onszelf niet als leverancier, maar als partner. Uw
-                  succes is ons succes. We denken proactief mee over hoe uw
+                  Ik zie mezelf niet als leverancier, maar als partner. Uw
+                  succes is mijn succes. Ik denk proactief mee over hoe uw
                   website uw bedrijf kan helpen groeien.
                 </p>
               </CardContent>

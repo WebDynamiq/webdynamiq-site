@@ -16,32 +16,32 @@ export const metadata: Metadata = {
 export default function FAQPage() {
   const faqs = [
     {
-      question: "Werken jullie alleen met grote bedrijven?",
-      answer: "Helemaal niet! Wij zijn gespecialiseerd in het werken met kleine bedrijven, startups en lokale ondernemingen. Wij geloven dat professioneel webdevelopment toegankelijk moet zijn voor bedrijven van elke omvang."
+      question: "Werk jij alleen met grote bedrijven?",
+      answer: "Helemaal niet! Ik ben gespecialiseerd in het werken met kleine bedrijven, startups en lokale ondernemingen. Ik geloof dat professioneel webdevelopment toegankelijk moet zijn voor bedrijven van elke omvang."
     },
     {
       question: "Wat als mijn budget beperkt is?",
-      answer: "Wij zijn trots op onze flexibiliteit. Als u een specifiek budget heeft, laat het ons weten. We kunnen vaak de scope van het project aanpassen of alternatieve oplossingen voorstellen om aan uw financiële eisen te voldoen zonder in te leveren op kwaliteit."
+      answer: "Ik ben trots op mijn flexibiliteit. Als u een specifiek budget heeft, laat het mij weten. Ik kan vaak de scope van het project aanpassen of alternatieve oplossingen voorstellen om aan uw financiële eisen te voldoen zonder in te leveren op kwaliteit."
     },
     {
       question: "Kunnen de prijzen worden aangepast?",
-      answer: "Ja. Onze prijspakketten zijn startpunten. We bieden offertes op maat op basis van uw specifieke behoeften. Als u bepaalde functies niet nodig heeft, hoeft u er ook niet voor te betalen."
+      answer: "Ja. Mijn prijspakketten zijn startpunten. Ik bied offertes op maat op basis van uw specifieke behoeften. Als u bepaalde functies niet nodig heeft, hoeft u er ook niet voor te betalen."
     },
     {
-      question: "Bieden jullie doorlopende ondersteuning?",
-      answer: "Absoluut. We bieden diverse onderhouds- en ondersteuningspakketten om ervoor te zorgen dat uw website veilig, up-to-date en soepel blijft draaien na de lancering. We gaan voor een langdurige samenwerking."
+      question: "Bied jij doorlopende ondersteuning?",
+      answer: "Absoluut. Ik bied diverse onderhouds- en ondersteuningspakketten om ervoor te zorgen dat uw website veilig, up-to-date en soepel blijft draaien na de lancering. Ik ga voor een langdurige samenwerking."
     },
     {
       question: "Hoe lang duurt een project?",
-      answer: "De tijdlijn hangt af van de complexiteit van het project. Een eenvoudige bedrijfswebsite kan in 2-4 weken klaar zijn, terwijl maatwerk applicaties of webshops 6-12 weken kunnen duren. We geven een duidelijke tijdlijn in ons voorstel."
+      answer: "De tijdlijn hangt af van de complexiteit van het project. Een eenvoudige bedrijfswebsite kan in 2-4 weken klaar zijn, terwijl maatwerk applicaties of webshops 6-12 weken kunnen duren. Ik geef een duidelijke tijdlijn in mijn voorstel."
     },
     {
-      question: "Bouwen jullie schaalbare oplossingen?",
-      answer: "Ja. We bouwen met groei in gedachten. Of u nu klein begint en later functies wilt toevoegen, of een systeem nodig heeft dat duizenden gebruikers aankan, we gebruiken technologieën (zoals Next.js) die met uw bedrijf meegroeien."
+      question: "Bouw jij schaalbare oplossingen?",
+      answer: "Ja. Ik bouw met groei in gedachten. Of u nu klein begint en later functies wilt toevoegen, of een systeem nodig heeft dat duizenden gebruikers aankan, ik gebruik technologieën (zoals Next.js) die met uw bedrijf meegroeien."
     },
     {
       question: "Kan ik de website zelf bijwerken?",
-      answer: "Ja! We bouwen websites doorgaans met een Content Management Systeem (CMS) of gebruiksvriendelijke interface waarmee u eenvoudig tekst, afbeeldingen en blogposts kunt bijwerken zonder code te hoeven schrijven."
+      answer: "Ja! Ik bouw websites doorgaans met een Content Management Systeem (CMS) of gebruiksvriendelijke interface waarmee u eenvoudig tekst, afbeeldingen en blogposts kunt bijwerken zonder code te hoeven schrijven."
     }
   ];
 
@@ -82,7 +82,7 @@ export default function FAQPage() {
             <div className="relative z-10">
               <h3 className="text-2xl font-bold mb-4">Nog steeds vragen?</h3>
               <p className="text-muted-foreground mb-8 max-w-xl mx-auto">
-                Wij staan klaar om te helpen. Neem contact op voor een persoonlijk antwoord.
+                Ik sta klaar om te helpen. Neem contact op voor een persoonlijk antwoord.
               </p>
               <Link href="/contact">
                 <Button size="lg">Stel uw vraag</Button>

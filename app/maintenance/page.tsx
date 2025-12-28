@@ -6,7 +6,7 @@ import { Check } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Onderhoud & Support",
-  description: "Houd uw website veilig en up-to-date met onze flexibele onderhoudsplannen. Professionele ondersteuning voor gemoedsrust.",
+  description: "Houd uw website veilig en up-to-date met mijn flexibele onderhoudsplannen. Professionele ondersteuning voor gemoedsrust.",
 };
 
 export default function MaintenancePage() {
@@ -24,7 +24,7 @@ export default function MaintenancePage() {
             Uw website is een investering die bescherming verdient.
           </p>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-balance">
-            Wij regelen de updates, beveiliging en backups. 
+            Ik regel de updates, beveiliging en backups. 
             <br className="hidden sm:block" />
             U focust op uw klanten.
           </p>
@@ -164,7 +164,7 @@ export default function MaintenancePage() {
               Flexibele Voorwaarden
             </p>
             <p className="text-sm text-muted-foreground mb-8">
-              Deze pakketten zijn indicatief. We kunnen een ondersteuningsplan opstellen dat past bij uw specifieke behoeften en budget. 
+              Deze pakketten zijn indicatief. Ik kan een ondersteuningsplan opstellen dat past bij uw specifieke behoeften en budget. 
               <br />
               U zit nooit vast aan diensten die u niet nodig heeft.
             </p>

@@ -9,15 +9,15 @@ export function Footer() {
             <h3 className="text-lg font-bold">Webdynamiq</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Hoogwaardige, professionele weboplossingen aangepast aan uw budget. 
-              Wij helpen bedrijven groeien met mensgerichte digitale strategieën.
+              Ik help bedrijven groeien met mensgerichte digitale strategieën.
             </p>
           </div>
           
           <div>
             <h4 className="font-semibold mb-4">Bedrijf</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><Link href="/about" className="hover:text-foreground">Over ons</Link></li>
-              <li><Link href="/process" className="hover:text-foreground">Onze werkwijze</Link></li>
+              <li><Link href="/about" className="hover:text-foreground">Over mij</Link></li>
+              <li><Link href="/process" className="hover:text-foreground">Mijn werkwijze</Link></li>
               <li><Link href="/contact" className="hover:text-foreground">Contact</Link></li>
             </ul>
           </div>

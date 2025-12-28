@@ -37,16 +37,16 @@ export default function ContactPage() {
             
             {/* Contact Info */}
             <div>
-              <h2 className="text-2xl font-bold mb-6">We horen graag van u</h2>
+              <h2 className="text-2xl font-bold mb-6">Ik hoor graag van u</h2>
               <p className="text-muted-foreground mb-8 text-lg leading-relaxed">
-                Of u nu klaar bent om een project te starten of gewoon een paar vragen heeft, wij zijn er om te helpen. 
+                Of u nu klaar bent om een project te starten of gewoon een paar vragen heeft, ik ben er om te helpen. 
                 <br />
                 Geen druk, geen verkooppraatje.
               </p>
               
               <div className="space-y-8">
                 <div>
-                  <h3 className="font-semibold mb-2">E-mail ons</h3>
+                  <h3 className="font-semibold mb-2">E-mail mij</h3>
                   <p className="text-muted-foreground">hello@webdynamiq.com</p>
                 </div>
                 <div>
@@ -56,9 +56,9 @@ export default function ContactPage() {
                 <div>
                   <h3 className="font-semibold mb-2">Wat gebeurt er hierna?</h3>
                   <ul className="list-disc list-inside text-muted-foreground space-y-2">
-                    <li>We bekijken uw bericht binnen 24 uur.</li>
-                    <li>We plannen een kort gesprek om uw behoeften te begrijpen.</li>
-                    <li>We zorgen voor een voorstel en offerte op maat.</li>
+                    <li>Ik bekijk uw bericht binnen 24 uur.</li>
+                    <li>Ik plan een kort gesprek om uw behoeften te begrijpen.</li>
+                    <li>Ik zorg voor een voorstel en offerte op maat.</li>
                   </ul>
                 </div>
               </div>
@@ -67,8 +67,8 @@ export default function ContactPage() {
             {/* Contact Form */}
             <Card className="shadow-lg border-muted/40 bg-background/60 backdrop-blur-sm">
               <CardHeader>
-                <CardTitle>Stuur ons een bericht</CardTitle>
-                <CardDescription>Vul het onderstaande formulier in en we nemen zo snel mogelijk contact met u op.</CardDescription>
+                <CardTitle>Stuur mij een bericht</CardTitle>
+                <CardDescription>Vul het onderstaande formulier in en ik neem zo snel mogelijk contact met u op.</CardDescription>
               </CardHeader>
               <CardContent>
                 <form className="space-y-6">
@@ -92,7 +92,7 @@ export default function ContactPage() {
                     <Label htmlFor="message">Bericht</Label>
                     <Textarea 
                       id="message" 
-                      placeholder="Vertel ons over uw project, budget en tijdlijn..." 
+                      placeholder="Vertel mij over uw project, budget en tijdlijn..." 
                       className="min-h-[150px]"
                     />
                   </div>

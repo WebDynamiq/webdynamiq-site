@@ -36,7 +36,7 @@ export default function PricingPage() {
           {/* Intro Block */}
           <div className="max-w-3xl mx-auto text-center mb-16">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Onze tarieven zijn richtlijnen, geen vaste grenzen.
+              Mijn tarieven zijn richtlijnen, geen vaste grenzen.
               <br />
               Elk project is anders. Daarom stemmen we functionaliteit, scope en prijs samen af.
             </p>
@@ -206,7 +206,7 @@ export default function PricingPage() {
           <div className="mt-16 text-center max-w-3xl mx-auto space-y-6">
             <div className="bg-primary/5 p-6 rounded-xl">
               <p className="text-base font-medium text-foreground">
-                Alle prijzen zijn indicatief. Elk project is anders, en we zoeken altijd naar een oplossing die past bij uw behoeften en budget. 
+                Alle prijzen zijn indicatief. Elk project is anders, en ik zoek altijd naar een oplossing die past bij uw behoeften en budget. 
                 <br className="hidden sm:block" />
                 Voor maatwerk bespreken we samen de scope en prijs, zodat u precies weet wat u krijgt.
               </p>
@@ -214,10 +214,10 @@ export default function PricingPage() {
             
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6 text-sm font-medium pt-4">
               <Link href="/pricing/how-it-works" className="text-primary hover:underline flex items-center gap-1">
-                Meer weten over hoe onze prijzen werken? Lees meer &rarr;
+                Meer weten over hoe mijn prijzen werken? Lees meer &rarr;
               </Link>
               <Link href="/maintenance" className="text-primary hover:underline flex items-center gap-1">
-                Op zoek naar doorlopende ondersteuning? Bekijk onze onderhoudsplannen &rarr;
+                Op zoek naar doorlopende ondersteuning? Bekijk mijn onderhoudsplannen &rarr;
               </Link>
             </div>
           </div>

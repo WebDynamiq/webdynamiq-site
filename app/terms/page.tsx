@@ -14,7 +14,7 @@ export default function TermsPage() {
         
         <h2 className="text-xl font-semibold mt-8 mb-4">1. Akkoord met voorwaarden</h2>
         <p className="mb-4">
-          Door onze website te bezoeken, gaat u akkoord gebonden te zijn aan deze Algemene Voorwaarden en te voldoen aan alle toepasselijke wet- en regelgeving. 
+          Door mijn website te bezoeken, gaat u akkoord gebonden te zijn aan deze Algemene Voorwaarden en te voldoen aan alle toepasselijke wet- en regelgeving. 
           Als u niet akkoord gaat met deze voorwaarden, is het u verboden deze site te gebruiken of te bezoeken.
         </p>
 

@@ -23,9 +23,9 @@ export default function ServicesPage() {
             Van slimme bedrijfswebsites tot complexe maatwerkapplicaties.
           </p>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-balance">
-            Wij bouwen niet zomaar een site. 
+            Ik bouw niet zomaar een site. 
             <br className="hidden sm:block" />
-            Wij bouwen uw digitale toekomst, stap voor stap en binnen uw mogelijkheden.
+            Ik bouw uw digitale toekomst, stap voor stap en binnen uw mogelijkheden.
           </p>
         </div>
       </section>
@@ -41,7 +41,7 @@ export default function ServicesPage() {
               <p className="text-muted-foreground mb-6 text-lg leading-relaxed">
                 Uw website is uw digitale visitekaartje. 
                 <br />
-                Wij bouwen professionele, snelle en SEO-geoptimaliseerde websites die u helpen opvallen en meer klanten aantrekken.
+                Ik bouw professionele, snelle en SEO-geoptimaliseerde websites die u helpen opvallen en meer klanten aantrekken.
               </p>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center gap-2">
@@ -87,7 +87,7 @@ export default function ServicesPage() {
               <p className="text-muted-foreground mb-6 text-lg leading-relaxed">
                 Meer nodig dan alleen een website? 
                 <br />
-                Wij bouwen maatwerk webapplicaties, dashboards en interne tools om uw bedrijfsprocessen te stroomlijnen.
+                Ik bouw maatwerk webapplicaties, dashboards en interne tools om uw bedrijfsprocessen te stroomlijnen.
               </p>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center gap-2">
@@ -115,7 +115,7 @@ export default function ServicesPage() {
               <Badge className="mb-4">E-commerce</Badge>
               <h2 className="text-3xl font-bold mb-4">Webshops & E-commerce</h2>
               <p className="text-muted-foreground mb-6 text-lg leading-relaxed">
-                Voor webshops werken we met betrouwbare platformen zoals Shopify die zich al jarenlang bewezen hebben.
+                Voor webshops werk ik met betrouwbare platformen zoals Shopify die zich al jarenlang bewezen hebben.
                 <br />
                 Zo bent u zeker van een veilige, snelle en onderhoudsvriendelijke winkel die met u meegroeit.
               </p>
@@ -134,7 +134,7 @@ export default function ServicesPage() {
                 </li>
               </ul>
               <p className="text-muted-foreground mb-8 italic">
-                Heeft u specifieke noden die niet in een standaard webshop passen? Dan bouwen we een oplossing op maat.
+                Heeft u specifieke noden die niet in een standaard webshop passen? Dan bouw ik een oplossing op maat.
               </p>
               <Link href="/contact">
                 <Button>Start met verkopen</Button>
@@ -155,9 +155,9 @@ export default function ServicesPage() {
             <div className="absolute top-0 left-0 w-full h-1 bg-linear-to-r from-transparent via-primary/20 to-transparent"></div>
             <h2 className="text-3xl font-bold mb-4">Doorlopende Ondersteuning & Onderhoud</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed text-lg">
-              Wij lanceren niet zomaar om daarna te vertrekken. 
+              Ik lanceer niet zomaar om daarna te vertrekken. 
               <br />
-              Wij bieden doorlopende ondersteuningspakketten om uw website veilig, up-to-date en soepel draaiende te houden.
+              Ik bied doorlopende ondersteuningspakketten om uw website veilig, up-to-date en soepel draaiende te houden.
             </p>
             <Link href="/contact">
               <Button variant="outline" size="lg" className="bg-background/50 backdrop-blur-sm border-primary/20 hover:bg-background/80">Vraag naar support</Button>

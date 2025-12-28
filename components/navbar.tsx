@@ -37,7 +37,7 @@ export function Navbar() {
             Werkwijze
           </Link>
           <Link href="/about" className="hover:text-foreground transition-colors">
-            Over ons
+            Over mij
           </Link>
           <Link href="/faq" className="hover:text-foreground transition-colors">
             FAQ

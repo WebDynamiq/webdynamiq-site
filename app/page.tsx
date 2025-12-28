@@ -12,7 +12,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-dots text-primary/10 pointer-events-none"></div> 
         <div className="container px-4 md:px-8 mx-auto max-w-7xl text-center relative z-10">
           <Badge variant="secondary" className="mb-6 px-4 py-1.5 text-sm font-medium border-primary/20 bg-primary/5 text-primary">
-            Webdynamiq Agency
+            Webdynamiq
           </Badge>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-8 text-balance">
             Premium webdesign dat <br className="hidden md:block" />
@@ -25,7 +25,7 @@ export default function Home() {
           </p>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-10 text-balance">
             Geen vaste pakketten die niet passen. <br className="hidden sm:block" />
-            We bekijken samen wat u nodig heeft en wat haalbaar is binnen uw budget.
+            Ik bekijk samen met u wat u nodig heeft en wat haalbaar is binnen uw budget.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
@@ -42,11 +42,11 @@ export default function Home() {
       <section className="py-20">
         <div className="container px-4 md:px-8 mx-auto max-w-7xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold mb-4">Wat we doen</h2>
+            <h2 className="text-3xl font-bold mb-4">Wat ik doe</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               Van eenvoudige landingspagina's tot complexe webapplicaties.
               <br />
-              Wij leveren oplossingen die uw bedrijf helpen groeien.
+              Ik lever oplossingen die uw bedrijf helpen groeien.
             </p>
           </div>
           
@@ -106,7 +106,7 @@ export default function Home() {
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Waarom kiezen voor Webdynamiq?</h2>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Wij geloven in een samenwerking gebaseerd op vertrouwen, kwaliteit en direct contact.
+              Ik geloof in een samenwerking gebaseerd op vertrouwen, kwaliteit en direct contact.
               Geen black box, maar een transparante partner.
             </p>
           </div>
@@ -121,7 +121,7 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground leading-relaxed">
-                  Geen verborgen kosten of technisch jargon. Wij geven eerlijk advies over wat u wel én niet nodig heeft voor uw doelen.
+                  Geen verborgen kosten of technisch jargon. Ik geef eerlijk advies over wat u wel én niet nodig heeft voor uw doelen.
                 </p>
               </CardContent>
             </Card>
@@ -135,7 +135,7 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground leading-relaxed">
-                  U spreekt rechtstreeks met de ontwikkelaar. Korte lijnen zorgen voor snelle schakelingen en voorkomen misverstanden.
+                  U spreekt rechtstreeks met mij, de ontwikkelaar. Korte lijnen zorgen voor snelle schakelingen en voorkomen misverstanden.
                 </p>
               </CardContent>
             </Card>
@@ -149,7 +149,7 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground leading-relaxed">
-                  Een mooie website is niet genoeg. Wij bouwen snelle, veilige en schaalbare oplossingen die uw bedrijf helpen groeien.
+                  Een mooie website is niet genoeg. Ik bouw snelle, veilige en schaalbare oplossingen die uw bedrijf helpen groeien.
                 </p>
               </CardContent>
             </Card>
@@ -158,7 +158,7 @@ export default function Home() {
           {/* Process Section */}
           <div className="bg-background rounded-3xl p-8 md:p-12 border shadow-sm">
             <div className="text-center mb-12">
-              <h3 className="text-2xl font-bold mb-4">Onze Werkwijze</h3>
+              <h3 className="text-2xl font-bold mb-4">Mijn Werkwijze</h3>
               <p className="text-muted-foreground">Van eerste idee tot succesvolle lancering in vier heldere stappen.</p>
             </div>
             
@@ -171,7 +171,7 @@ export default function Home() {
                   <div className="h-12 w-12 rounded-full bg-primary/5 border border-primary/20 flex items-center justify-center mb-4 mx-auto text-primary font-bold">1</div>
                 </div>
                 <h4 className="font-semibold mb-2">Kennismaking</h4>
-                <p className="text-sm text-muted-foreground">We bespreken uw wensen, doelen en budget in een vrijblijvend gesprek.</p>
+                <p className="text-sm text-muted-foreground">Ik bespreek uw wensen, doelen en budget in een vrijblijvend gesprek.</p>
               </div>
 
               <div className="relative pt-4 md:pt-0 text-center">
@@ -187,7 +187,7 @@ export default function Home() {
                   <div className="h-12 w-12 rounded-full bg-primary/5 border border-primary/20 flex items-center justify-center mb-4 mx-auto text-primary font-bold">3</div>
                 </div>
                 <h4 className="font-semibold mb-2">Ontwikkeling</h4>
-                <p className="text-sm text-muted-foreground">We bouwen uw oplossing en houden u op de hoogte van de voortgang.</p>
+                <p className="text-sm text-muted-foreground">Ik bouw uw oplossing en houd u op de hoogte van de voortgang.</p>
               </div>
 
               <div className="relative pt-4 md:pt-0 text-center">
