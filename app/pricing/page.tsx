@@ -14,15 +14,30 @@ export default function PricingPage() {
     <div className="flex flex-col min-h-screen">
       <section className="py-20 bg-muted/30">
         <div className="container px-4 md:px-8 mx-auto max-w-7xl text-center">
-          <h1 className="text-4xl font-bold tracking-tight mb-6">Transparante Tarieven</h1>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Professionele kwaliteit zonder de hoofdprijs. Wij passen onze oplossingen aan uw budget aan.
+          <h1 className="text-4xl font-bold tracking-tight mb-6">Transparante tarieven die werken voor uw situatie</h1>
+          <p className="text-xl font-medium text-foreground max-w-2xl mx-auto mb-4">
+            Professionele kwaliteit zonder onverwachte kosten.
+          </p>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            Geen verborgen kleine lettertjes. 
+            <br className="hidden sm:block" />
+            U weet vooraf precies waar u aan toe bent.
           </p>
         </div>
       </section>
 
       <section className="py-20">
         <div className="container px-4 md:px-8 mx-auto max-w-7xl">
+          
+          {/* Intro Block */}
+          <div className="max-w-3xl mx-auto text-center mb-16">
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              Onze tarieven zijn richtlijnen, geen vaste grenzen.
+              <br />
+              Elk project is anders — daarom stemmen we functionaliteit, scope en prijs samen af.
+            </p>
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             
             {/* Tier 1: Starter */}
@@ -132,7 +147,7 @@ export default function PricingPage() {
                   </li>
                   <li className="flex items-start gap-2">
                     <Check className="h-5 w-5 text-primary shrink-0" />
-                    <span className="text-sm">Webshop/e-commerce</span>
+                    <span className="text-sm">E-commerce (Shopify of maatwerk)</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <Check className="h-5 w-5 text-primary shrink-0" />
@@ -156,6 +171,14 @@ export default function PricingPage() {
             </Card>
           </div>
 
+          {/* E-commerce Note */}
+          <div className="mt-12 text-center max-w-2xl mx-auto">
+            <p className="text-muted-foreground italic">
+              Voor webshops bekijken we samen welke oplossing het best past bij uw situatie. 
+              Zo bent u zeker van een veilige en duurzame oplossing.
+            </p>
+          </div>
+
           {/* Maatwerk Section */}
           <div className="mt-16 bg-muted/50 rounded-2xl p-8 md:p-12 border">
             <div className="flex flex-col md:flex-row gap-8 items-center justify-between">
@@ -165,7 +188,7 @@ export default function PricingPage() {
                   Voor projecten die speciale functionaliteiten nodig hebben, zoals aangepaste webapplicaties, integraties of specifieke dashboards.
                 </p>
                 <p className="font-medium">
-                  Prijs op aanvraag, volledig afgestemd op de behoeften en het budget van de klant.
+                  Prijs op aanvraag, volledig afgestemd op uw behoeften en budget.
                 </p>
               </div>
               <Link href="/contact">
@@ -178,7 +201,9 @@ export default function PricingPage() {
           <div className="mt-16 text-center max-w-3xl mx-auto space-y-6">
             <div className="bg-primary/5 p-6 rounded-xl">
               <p className="text-base font-medium text-foreground">
-                Alle prijzen zijn indicatief. Elk project is anders, en we zoeken altijd naar een oplossing die past bij uw behoeften en budget. Voor maatwerk bespreken we samen de scope en prijs, zodat u precies weet wat u krijgt.
+                Alle prijzen zijn indicatief. Elk project is anders, en we zoeken altijd naar een oplossing die past bij uw behoeften en budget. 
+                <br className="hidden sm:block" />
+                Voor maatwerk bespreken we samen de scope en prijs, zodat u precies weet wat u krijgt.
               </p>
             </div>
             

@@ -49,9 +49,12 @@ export default function FAQPage() {
     <div className="flex flex-col min-h-screen">
       <section className="py-20 bg-muted/30">
         <div className="container px-4 md:px-8 mx-auto max-w-7xl text-center">
-          <h1 className="text-4xl font-bold tracking-tight mb-6">Veelgestelde Vragen</h1>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Heeft u vragen? Wij hebben antwoorden. Als u niet vindt wat u zoekt, neem dan gerust contact op.
+          <h1 className="text-4xl font-bold tracking-tight mb-6">Duidelijkheid vooraf, geen vragen achteraf</h1>
+          <p className="text-xl font-medium text-foreground max-w-2xl mx-auto mb-4">
+            Antwoorden op de meest gestelde vragen.
+          </p>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            Staat uw vraag er niet tussen? Neem gerust contact op.
           </p>
         </div>
       </section>
@@ -71,13 +74,12 @@ export default function FAQPage() {
             ))}
           </Accordion>
 
-          <div className="mt-16 text-center bg-primary/5 p-8 rounded-xl">
-            <h3 className="text-xl font-bold mb-4">Nog steeds vragen?</h3>
+          <div className="mt-16 text-center">
             <p className="text-muted-foreground mb-6">
-              We praten graag met u om alles te verduidelijken.
+              Nog steeds vragen? Wij staan klaar om te helpen.
             </p>
             <Link href="/contact">
-              <Button>Neem contact op</Button>
+              <Button>Stel uw vraag</Button>
             </Link>
           </div>
         </div>

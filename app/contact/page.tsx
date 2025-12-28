@@ -15,9 +15,14 @@ export default function ContactPage() {
     <div className="flex flex-col min-h-screen">
       <section className="py-20 bg-muted/30">
         <div className="container px-4 md:px-8 mx-auto max-w-7xl text-center">
-          <h1 className="text-4xl font-bold tracking-tight mb-6">Neem Contact Op</h1>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Heeft u een project in gedachten? Laten we bespreken hoe we uw bedrijf kunnen helpen groeien.
+          <h1 className="text-4xl font-bold tracking-tight mb-6">Start uw digitale groei vandaag</h1>
+          <p className="text-xl font-medium text-foreground max-w-2xl mx-auto mb-4">
+            Heeft u een project in gedachten? Laten we praten.
+          </p>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            Geen verplichtingen, geen sales-push. 
+            <br className="hidden sm:block" />
+            Gewoon een eerlijk gesprek over uw doelen.
           </p>
         </div>
       </section>
@@ -29,8 +34,10 @@ export default function ContactPage() {
             {/* Contact Info */}
             <div>
               <h2 className="text-2xl font-bold mb-6">We horen graag van u</h2>
-              <p className="text-muted-foreground mb-8 text-lg">
-                Of u nu klaar bent om een project te starten of gewoon een paar vragen heeft, wij zijn er om te helpen. Geen druk, geen verkooppraatje.
+              <p className="text-muted-foreground mb-8 text-lg leading-relaxed">
+                Of u nu klaar bent om een project te starten of gewoon een paar vragen heeft, wij zijn er om te helpen. 
+                <br />
+                Geen druk, geen verkooppraatje.
               </p>
               
               <div className="space-y-8">

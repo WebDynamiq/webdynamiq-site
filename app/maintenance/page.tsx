@@ -15,10 +15,14 @@ export default function MaintenancePage() {
       {/* Hero Section */}
       <section className="py-20 bg-muted/30">
         <div className="container px-4 md:px-8 mx-auto max-w-7xl text-center">
-          <h1 className="text-4xl font-bold tracking-tight mb-6">Gemoedsrust voor uw website</h1>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Uw website is een investering. Bescherm deze met onze betrouwbare onderhouds- en ondersteuningspakketten.
-            Wij regelen de technische details zodat u zich kunt concentreren op uw bedrijf.
+          <h1 className="text-4xl font-bold tracking-tight mb-6">Technische zekerheid, zodat u kunt ondernemen</h1>
+          <p className="text-xl font-medium text-foreground max-w-2xl mx-auto mb-4">
+            Uw website is een investering die bescherming verdient.
+          </p>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            Wij regelen de updates, beveiliging en backups. 
+            <br className="hidden sm:block" />
+            U focust op uw klanten.
           </p>
         </div>
       </section>
@@ -157,6 +161,7 @@ export default function MaintenancePage() {
             </p>
             <p className="text-sm text-muted-foreground mb-8">
               Deze pakketten zijn indicatief. We kunnen een ondersteuningsplan opstellen dat past bij uw specifieke behoeften en budget. 
+              <br />
               U zit nooit vast aan diensten die u niet nodig heeft.
             </p>
             <Link href="/contact">

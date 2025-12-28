@@ -14,9 +14,14 @@ export default function ServicesPage() {
     <div className="flex flex-col min-h-screen">
       <section className="py-20 bg-muted/30">
         <div className="container px-4 md:px-8 mx-auto max-w-7xl text-center">
-          <h1 className="text-4xl font-bold tracking-tight mb-6">Onze Diensten</h1>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Uitgebreide weboplossingen op maat van uw bedrijf. Van eenvoudige sites tot complexe applicaties.
+          <h1 className="text-4xl font-bold tracking-tight mb-6">Weboplossingen die uw bedrijf versterken</h1>
+          <p className="text-xl font-medium text-foreground max-w-2xl mx-auto mb-4">
+            Van slimme bedrijfswebsites tot complexe maatwerkapplicaties.
+          </p>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            Wij bouwen niet zomaar een site. 
+            <br className="hidden sm:block" />
+            Wij bouwen uw digitale toekomst, stap voor stap en binnen uw mogelijkheden.
           </p>
         </div>
       </section>
@@ -29,8 +34,10 @@ export default function ServicesPage() {
             <div>
               <Badge className="mb-4">Webdevelopment</Badge>
               <h2 className="text-3xl font-bold mb-4">Bedrijfswebsites</h2>
-              <p className="text-muted-foreground mb-6 text-lg">
-                Uw website is uw digitale visitekaartje. Wij bouwen professionele, snelle en SEO-geoptimaliseerde websites die u helpen opvallen en meer klanten aantrekken.
+              <p className="text-muted-foreground mb-6 text-lg leading-relaxed">
+                Uw website is uw digitale visitekaartje. 
+                <br />
+                Wij bouwen professionele, snelle en SEO-geoptimaliseerde websites die u helpen opvallen en meer klanten aantrekken.
               </p>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center gap-2">
@@ -63,8 +70,10 @@ export default function ServicesPage() {
             <div>
               <Badge className="mb-4">Maatwerk Software</Badge>
               <h2 className="text-3xl font-bold mb-4">Maatwerk Webapplicaties</h2>
-              <p className="text-muted-foreground mb-6 text-lg">
-                Meer nodig dan alleen een website? Wij bouwen maatwerk webapplicaties, dashboards en interne tools om uw bedrijfsprocessen te stroomlijnen.
+              <p className="text-muted-foreground mb-6 text-lg leading-relaxed">
+                Meer nodig dan alleen een website? 
+                <br />
+                Wij bouwen maatwerk webapplicaties, dashboards en interne tools om uw bedrijfsprocessen te stroomlijnen.
               </p>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center gap-2">
@@ -91,23 +100,28 @@ export default function ServicesPage() {
             <div>
               <Badge className="mb-4">E-commerce</Badge>
               <h2 className="text-3xl font-bold mb-4">Webshops & E-commerce</h2>
-              <p className="text-muted-foreground mb-6 text-lg">
-                Begin online te verkopen met een robuust e-commerce platform. Wij bouwen schaalbare webshops die een naadloze winkelervaring bieden voor uw klanten.
+              <p className="text-muted-foreground mb-6 text-lg leading-relaxed">
+                Voor webshops werken we met betrouwbare platformen zoals Shopify die zich al jarenlang bewezen hebben.
+                <br />
+                Zo bent u zeker van een veilige, snelle en onderhoudsvriendelijke winkel die met u meegroeit.
               </p>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center gap-2">
                   <span className="h-2 w-2 rounded-full bg-primary" />
-                  <span>Veilige betalingsintegratie</span>
+                  <span>Veilig betalen & betrouwbare afhandeling</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="h-2 w-2 rounded-full bg-primary" />
-                  <span>Voorraadbeheer</span>
+                  <span>Eenvoudig zelf producten beheren</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="h-2 w-2 rounded-full bg-primary" />
-                  <span>Bestellingstracking & meldingen</span>
+                  <span>Schaalbaar voor de toekomst</span>
                 </li>
               </ul>
+              <p className="text-muted-foreground mb-8 italic">
+                Heeft u specifieke noden die niet in een standaard webshop passen? Dan bouwen we een oplossing op maat.
+              </p>
               <Link href="/contact">
                 <Button>Start met verkopen</Button>
               </Link>
@@ -120,8 +134,10 @@ export default function ServicesPage() {
           {/* Support */}
           <div className="bg-primary/5 rounded-2xl p-8 md:p-12 text-center">
             <h2 className="text-2xl font-bold mb-4">Doorlopende Ondersteuning & Onderhoud</h2>
-            <p className="text-muted-foreground max-w-2xl mx-auto mb-8">
-              Wij lanceren niet zomaar om daarna te vertrekken. Wij bieden doorlopende ondersteuningspakketten om uw website veilig, up-to-date en soepel draaiende te houden.
+            <p className="text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed">
+              Wij lanceren niet zomaar om daarna te vertrekken. 
+              <br />
+              Wij bieden doorlopende ondersteuningspakketten om uw website veilig, up-to-date en soepel draaiende te houden.
             </p>
             <Link href="/contact">
               <Button variant="outline">Vraag naar support</Button>

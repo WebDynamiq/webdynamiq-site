@@ -45,31 +45,50 @@ export default function ProcessPage() {
     <div className="flex flex-col min-h-screen">
       <section className="py-20 bg-muted/30">
         <div className="container px-4 md:px-8 mx-auto max-w-7xl text-center">
-          <h1 className="text-4xl font-bold tracking-tight mb-6">Onze Werkwijze</h1>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <h1 className="text-4xl font-bold tracking-tight mb-6">Een helder proces zonder verrassingen</h1>
+          <p className="text-xl font-medium text-foreground max-w-2xl mx-auto mb-4">
+            Van idee tot realiteit in duidelijke stappen.
+          </p>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Een transparant, samenwerkingsgericht proces ontworpen om resultaten te leveren zonder stress.
           </p>
         </div>
       </section>
 
       <section className="py-20">
-        <div className="container px-4 md:px-8 mx-auto max-w-7xl">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {steps.map((step) => (
-              <div key={step.number} className="bg-card border rounded-xl p-8 hover:shadow-md transition-shadow">
-                <div className="text-4xl font-bold text-primary/20 mb-4">{step.number}</div>
-                <h3 className="text-xl font-bold mb-3">{step.title}</h3>
-                <p className="text-muted-foreground">{step.description}</p>
+        <div className="container px-4 md:px-8 mx-auto max-w-5xl">
+          <div className="space-y-12">
+            {steps.map((step, index) => (
+              <div key={index} className="flex flex-col md:flex-row gap-8 items-start relative">
+                {/* Connecting Line (except for last item) */}
+                {index !== steps.length - 1 && (
+                  <div className="hidden md:block absolute left-[2.5rem] top-16 bottom-[-3rem] w-0.5 bg-muted" />
+                )}
+                
+                <div className="flex-shrink-0 w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold text-2xl z-10 bg-background">
+                  {step.number}
+                </div>
+                <div className="pt-4">
+                  <h3 className="text-2xl font-bold mb-3">{step.title}</h3>
+                  <p className="text-muted-foreground text-lg leading-relaxed">
+                    {step.description}
+                  </p>
+                </div>
               </div>
             ))}
           </div>
+        </div>
+      </section>
 
-          <div className="mt-20 text-center">
-            <h2 className="text-2xl font-bold mb-6">Klaar om het gesprek te starten?</h2>
-            <Link href="/contact">
-              <Button size="lg">Plan een gesprek</Button>
-            </Link>
-          </div>
+      <section className="py-20 bg-muted/30">
+        <div className="container px-4 md:px-8 mx-auto max-w-3xl text-center">
+          <h2 className="text-3xl font-bold mb-6">Klaar om te beginnen?</h2>
+          <p className="text-xl text-muted-foreground mb-8">
+            Neem vandaag nog contact op voor een vrijblijvend gesprek over uw project.
+          </p>
+          <Link href="/contact">
+            <Button size="lg">Start uw project</Button>
+          </Link>
         </div>
       </section>
     </div>
