@@ -13,9 +13,8 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <div className="flex flex-col min-h-screen">
-      <section className="py-24 bg-gradient-to-b from-background to-muted/30 relative overflow-hidden">
-        <div className="absolute inset-0 bg-dots text-primary/5 pointer-events-none"></div>
-        <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px] [mask-image:linear-gradient(to_bottom,black,transparent)]"></div>
+      <section className="py-24 bg-linear-to-br from-muted via-background to-background relative overflow-hidden">
+        <div className="absolute inset-0 bg-dots text-primary/10 pointer-events-none"></div>
         <div className="container px-4 md:px-8 mx-auto max-w-7xl text-center relative z-10">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 text-balance">
             Start uw digitale groei <span className="text-primary">vandaag</span>

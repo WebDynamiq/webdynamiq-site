@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { ShieldCheck, MessageSquare, TrendingUp, Lightbulb, Layers, Rocket } from "lucide-react";
 
 export default function Home() {
   return (
@@ -99,68 +100,112 @@ export default function Home() {
       </section>
 
       {/* Why Us */}
-      <section className="py-24 bg-primary/5 relative">
-        <div className="absolute inset-0 bg-lines text-primary/5 pointer-events-none mask-[linear-gradient(to_bottom,black,transparent)]"></div>
+      <section className="py-24 bg-muted/30 relative overflow-hidden">
         <div className="container px-4 md:px-8 mx-auto max-w-7xl relative z-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-8">Waarom kiezen voor Webdynamiq?</h2>
-              <div className="space-y-8">
-                <div className="flex gap-4">
-                  <div className="h-10 w-10 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
-                    <span className="font-bold text-primary">1</span>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold mb-1">Flexibele Prijzen</h3>
-                    <p className="text-muted-foreground">
-                      Wij passen onze oplossingen aan uw budget aan, niet andersom.
-                      <br />
-                      Geen onnodige kosten voor functies die u niet gebruikt.
-                    </p>
-                  </div>
+          
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">Waarom kiezen voor Webdynamiq?</h2>
+            <p className="text-xl text-muted-foreground leading-relaxed">
+              Wij geloven in een samenwerking gebaseerd op vertrouwen, kwaliteit en direct contact.
+              Geen black box, maar een transparante partner.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
+            <Card className="bg-background/50 border-primary/10 shadow-sm hover:shadow-md transition-shadow">
+              <CardHeader>
+                <div className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4 text-primary">
+                  <ShieldCheck className="h-6 w-6" />
                 </div>
-                <div className="flex gap-4">
-                  <div className="h-10 w-10 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
-                    <span className="font-bold text-primary">2</span>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold mb-1">Persoonlijke Aanpak</h3>
-                    <p className="text-muted-foreground">
-                      U spreekt direct met de ontwikkelaar.
-                      <br />
-                      Korte lijnen, snelle communicatie en een partner die met u meedenkt.
-                    </p>
-                  </div>
+                <CardTitle>Transparantie & Eerlijkheid</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground leading-relaxed">
+                  Geen verborgen kosten of technisch jargon. Wij geven eerlijk advies over wat u wel én niet nodig heeft voor uw doelen.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-background/50 border-primary/10 shadow-sm hover:shadow-md transition-shadow">
+              <CardHeader>
+                <div className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4 text-primary">
+                  <MessageSquare className="h-6 w-6" />
                 </div>
-                <div className="flex gap-4">
-                  <div className="h-10 w-10 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
-                    <span className="font-bold text-primary">3</span>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold mb-1">Focus op Groei</h3>
-                    <p className="text-muted-foreground">
-                      Wij bouwen niet alleen een website, maar een tool voor uw succes.
-                      <br />
-                      SEO, snelheid en conversie staan centraal.
-                    </p>
-                  </div>
+                <CardTitle>Directe Communicatie</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground leading-relaxed">
+                  U spreekt rechtstreeks met de ontwikkelaar. Korte lijnen zorgen voor snelle schakelingen en voorkomen misverstanden.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-background/50 border-primary/10 shadow-sm hover:shadow-md transition-shadow">
+              <CardHeader>
+                <div className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4 text-primary">
+                  <TrendingUp className="h-6 w-6" />
                 </div>
-              </div>
+                <CardTitle>Focus op Resultaat</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground leading-relaxed">
+                  Een mooie website is niet genoeg. Wij bouwen snelle, veilige en schaalbare oplossingen die uw bedrijf helpen groeien.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+
+          {/* Process Section */}
+          <div className="bg-background rounded-3xl p-8 md:p-12 border shadow-sm">
+            <div className="text-center mb-12">
+              <h3 className="text-2xl font-bold mb-4">Onze Werkwijze</h3>
+              <p className="text-muted-foreground">Van eerste idee tot succesvolle lancering in vier heldere stappen.</p>
             </div>
-            <div className="bg-background rounded-2xl p-8 border shadow-sm">
-              <blockquote className="text-lg font-medium leading-relaxed mb-4">
-                "Webdynamiq begreep precies wat we nodig hadden als startende onderneming. 
-                Geen ingewikkeld jargon, maar een duidelijke taal en een prachtig resultaat binnen ons budget."
-              </blockquote>
-              <div className="flex items-center gap-4">
-                <div className="h-10 w-10 rounded-full bg-muted" />
-                <div>
-                  <div className="font-semibold">Tevreden Klant</div>
-                  <div className="text-sm text-muted-foreground">Oprichter, Lokale Start-up</div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-8 relative">
+              {/* Connecting line for desktop */}
+              <div className="hidden md:block absolute top-6 left-0 w-full h-0.5 bg-gradient-to-r from-transparent via-primary/20 to-transparent -z-10"></div>
+
+              <div className="relative pt-4 md:pt-0 text-center">
+                <div className="bg-background relative z-10 inline-block">
+                  <div className="h-12 w-12 rounded-full bg-primary/5 border border-primary/20 flex items-center justify-center mb-4 mx-auto text-primary font-bold">1</div>
                 </div>
+                <h4 className="font-semibold mb-2">Kennismaking</h4>
+                <p className="text-sm text-muted-foreground">We bespreken uw wensen, doelen en budget in een vrijblijvend gesprek.</p>
+              </div>
+
+              <div className="relative pt-4 md:pt-0 text-center">
+                <div className="bg-background relative z-10 inline-block">
+                  <div className="h-12 w-12 rounded-full bg-primary/5 border border-primary/20 flex items-center justify-center mb-4 mx-auto text-primary font-bold">2</div>
+                </div>
+                <h4 className="font-semibold mb-2">Voorstel & Plan</h4>
+                <p className="text-sm text-muted-foreground">U ontvangt een helder plan van aanpak en een transparante offerte.</p>
+              </div>
+
+              <div className="relative pt-4 md:pt-0 text-center">
+                <div className="bg-background relative z-10 inline-block">
+                  <div className="h-12 w-12 rounded-full bg-primary/5 border border-primary/20 flex items-center justify-center mb-4 mx-auto text-primary font-bold">3</div>
+                </div>
+                <h4 className="font-semibold mb-2">Ontwikkeling</h4>
+                <p className="text-sm text-muted-foreground">We bouwen uw oplossing en houden u op de hoogte van de voortgang.</p>
+              </div>
+
+              <div className="relative pt-4 md:pt-0 text-center">
+                <div className="bg-background relative z-10 inline-block">
+                  <div className="h-12 w-12 rounded-full bg-primary/5 border border-primary/20 flex items-center justify-center mb-4 mx-auto text-primary font-bold">4</div>
+                </div>
+                <h4 className="font-semibold mb-2">Lancering</h4>
+                <p className="text-sm text-muted-foreground">Na uitgebreid testen gaat uw site live, inclusief nazorg en support.</p>
               </div>
             </div>
           </div>
+
+          {/* Reserved for Testimonials */}
+          <div id="testimonials-placeholder" className="hidden mt-20 text-center">
+            {/* Future testimonials component will be injected here */}
+            <p className="text-muted-foreground italic">"Ruimte voor toekomstige reviews"</p>
+          </div>
+
         </div>
       </section>
 

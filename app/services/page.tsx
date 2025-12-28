@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
 export const metadata: Metadata = {
@@ -61,15 +61,25 @@ export default function ServicesPage() {
                 <Button>Vraag een offerte aan</Button>
               </Link>
             </div>
-            <div className="bg-muted rounded-xl h-80 flex items-center justify-center border">
-              <span className="text-muted-foreground">Website Illustratie</span>
+            <div className="relative h-80 rounded-xl overflow-hidden border bg-muted">
+              <Image 
+                src="/images/website.jpg" 
+                alt="Professionele bedrijfswebsite voorbeeld" 
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
 
           {/* Custom Applications */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center md:flex-row-reverse">
-            <div className="order-last md:order-first bg-muted rounded-xl h-80 flex items-center justify-center border">
-              <span className="text-muted-foreground">App Illustratie</span>
+            <div className="order-last md:order-first relative h-80 rounded-xl overflow-hidden border bg-muted">
+              <Image 
+                src="/images/dashboard.jpg" 
+                alt="Maatwerk dashboard applicatie voorbeeld" 
+                fill
+                className="object-cover"
+              />
             </div>
             <div>
               <Badge className="mb-4">Maatwerk Software</Badge>
@@ -130,8 +140,13 @@ export default function ServicesPage() {
                 <Button>Start met verkopen</Button>
               </Link>
             </div>
-            <div className="bg-muted rounded-xl h-80 flex items-center justify-center border">
-              <span className="text-muted-foreground">E-commerce Illustratie</span>
+            <div className="relative h-80 rounded-xl overflow-hidden border bg-muted">
+              <Image 
+                src="/images/ecommerce.jpg" 
+                alt="E-commerce webshop voorbeeld" 
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
 
