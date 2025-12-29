@@ -1,9 +1,5 @@
 import type { Metadata } from "next";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Label } from "@/components/ui/label";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { ContactForm } from "@/components/contact-form";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -65,42 +61,7 @@ export default function ContactPage() {
             </div>
 
             {/* Contact Form */}
-            <Card className="shadow-lg border-muted/40 bg-background/60 backdrop-blur-sm">
-              <CardHeader>
-                <CardTitle>Stuur mij een bericht</CardTitle>
-                <CardDescription>Vul het onderstaande formulier in en ik neem zo snel mogelijk contact met u op.</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <form className="space-y-6">
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div className="space-y-2">
-                      <Label htmlFor="name">Naam</Label>
-                      <Input id="name" placeholder="Uw naam" />
-                    </div>
-                    <div className="space-y-2">
-                      <Label htmlFor="email">E-mail</Label>
-                      <Input id="email" type="email" placeholder="uw@email.com" />
-                    </div>
-                  </div>
-                  
-                  <div className="space-y-2">
-                    <Label htmlFor="subject">Onderwerp</Label>
-                    <Input id="subject" placeholder="Projectaanvraag" />
-                  </div>
-                  
-                  <div className="space-y-2">
-                    <Label htmlFor="message">Bericht</Label>
-                    <Textarea 
-                      id="message" 
-                      placeholder="Vertel mij over uw project, budget en tijdlijn..." 
-                      className="min-h-[150px]"
-                    />
-                  </div>
-                  
-                  <Button type="submit" className="w-full">Verstuur Bericht</Button>
-                </form>
-              </CardContent>
-            </Card>
+            <ContactForm />
 
           </div>
         </div>
