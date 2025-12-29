@@ -63,7 +63,7 @@ export default function AboutPage() {
             </div>
             <div className="relative h-96 rounded-2xl overflow-hidden border bg-muted/30">
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,var(--primary),transparent)] opacity-10"></div>
-              <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]"></div>
+              <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-size-[24px_24px]"></div>
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="w-32 h-32 bg-primary/20 rounded-full blur-2xl"></div>
               </div>
@@ -79,8 +79,8 @@ export default function AboutPage() {
 
       {/* Core Values */}
       <section className="py-24 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-background via-primary/5 to-background"></div>
-        <div className="absolute inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)] opacity-50"></div>
+        <div className="absolute inset-0 bg-linear-to-b from-background via-primary/5 to-background"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] bg-size-[16px_16px] mask-[radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)] opacity-50"></div>
         <div className="container px-4 md:px-8 mx-auto max-w-7xl relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4">Waar ik voor sta</h2>

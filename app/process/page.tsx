@@ -77,10 +77,10 @@ export default function ProcessPage() {
               >
                 {/* Connecting Line (except for last item) */}
                 {index !== steps.length - 1 && (
-                  <div className="hidden md:block absolute left-[2.5rem] top-16 bottom-[-3rem] w-0.5 bg-muted" />
+                  <div className="hidden md:block absolute left-10 top-20 -bottom-12 w-0.5 bg-muted" />
                 )}
 
-                <div className="flex-shrink-0 w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold text-2xl z-10 bg-background">
+                <div className="shrink-0 w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold text-2xl z-10">
                   {step.number}
                 </div>
                 <div className="pt-4">

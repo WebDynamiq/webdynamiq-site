@@ -166,7 +166,7 @@ export default function Home() {
             
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8 relative">
               {/* Connecting line for desktop */}
-              <div className="hidden md:block absolute top-6 left-0 w-full h-0.5 bg-gradient-to-r from-transparent via-primary/20 to-transparent -z-10"></div>
+              <div className="hidden md:block absolute top-6 left-0 w-full h-0.5 bg-linear-to-r from-transparent via-primary/20 to-transparent -z-10"></div>
 
               <div className="relative pt-4 md:pt-0 text-center">
                 <div className="bg-background relative z-10 inline-block">

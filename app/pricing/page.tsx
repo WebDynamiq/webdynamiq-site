@@ -184,8 +184,8 @@ export default function PricingPage() {
           </div>
 
           {/* Maatwerk Section */}
-          <div className="mt-16 bg-gradient-to-r from-muted/50 to-background border rounded-2xl p-8 md:p-12 relative overflow-hidden animate-fade-in-up animation-delay-500">
-            <div className="absolute right-0 top-0 h-full w-1/3 bg-gradient-to-l from-primary/5 to-transparent"></div>
+          <div className="mt-16 bg-linear-to-r from-muted/50 to-background border rounded-2xl p-8 md:p-12 relative overflow-hidden animate-fade-in-up animation-delay-500">
+            <div className="absolute right-0 top-0 h-full w-1/3 bg-linear-to-l from-primary/5 to-transparent"></div>
             <div className="flex flex-col md:flex-row gap-8 items-center justify-between relative z-10">
               <div className="space-y-4 max-w-2xl">
                 <h2 className="text-3xl font-bold">Maatwerk</h2>

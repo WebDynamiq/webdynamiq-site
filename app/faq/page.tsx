@@ -78,7 +78,7 @@ export default function FAQPage() {
           </Accordion>
 
           <div className="mt-16 relative rounded-2xl overflow-hidden bg-primary/5 p-8 md:p-12 text-center">
-            <div className="absolute inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px] opacity-50"></div>
+            <div className="absolute inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] bg-size-[16px_16px] opacity-50"></div>
             <div className="relative z-10">
               <h3 className="text-2xl font-bold mb-4">Nog steeds vragen?</h3>
               <p className="text-muted-foreground mb-8 max-w-xl mx-auto">
