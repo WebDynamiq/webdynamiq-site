@@ -15,14 +15,14 @@ export default function PricingPage() {
       <section className="py-24 bg-linear-to-b from-muted/50 to-background relative overflow-hidden">
         <div className="absolute inset-0 bg-lines text-primary/10 pointer-events-none mask-[linear-gradient(to_bottom,black,transparent)]"></div>
         <div className="container px-4 md:px-8 mx-auto max-w-7xl text-center relative z-10">
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 text-balance">
+          <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 text-balance animate-fade-in-up">
             Transparante tarieven die <br className="hidden md:block" />
             <span className="text-primary">werken voor uw situatie</span>
           </h1>
-          <p className="text-xl font-medium text-foreground max-w-2xl mx-auto mb-4 text-balance">
+          <p className="text-xl font-medium text-foreground max-w-2xl mx-auto mb-4 text-balance animate-fade-in-up animation-delay-100">
             Professionele kwaliteit zonder onverwachte kosten.
           </p>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-balance">
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-balance animate-fade-in-up animation-delay-200">
             Geen verborgen kleine lettertjes. 
             <br className="hidden sm:block" />
             U weet vooraf precies waar u aan toe bent.
@@ -34,7 +34,7 @@ export default function PricingPage() {
         <div className="container px-4 md:px-8 mx-auto max-w-7xl">
           
           {/* Intro Block */}
-          <div className="max-w-3xl mx-auto text-center mb-16">
+          <div className="max-w-3xl mx-auto text-center mb-16 animate-fade-in-up animation-delay-300">
             <p className="text-lg text-muted-foreground leading-relaxed">
               Mijn tarieven zijn richtlijnen, geen vaste grenzen.
               <br />
@@ -45,7 +45,7 @@ export default function PricingPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             
             {/* Tier 1: Starter */}
-            <Card className="flex flex-col">
+            <Card className="flex flex-col animate-fade-in-up animation-delay-300">
               <CardHeader>
                 <CardTitle className="text-2xl">Starter</CardTitle>
                 <CardDescription>Perfect voor kleine bedrijven die een professionele online aanwezigheid willen zonder onnodige complexiteit</CardDescription>
@@ -82,7 +82,7 @@ export default function PricingPage() {
             </Card>
 
             {/* Tier 2: Professioneel */}
-            <Card className="flex flex-col border-primary relative border">
+            <Card className="flex flex-col border-primary relative border hover:shadow-primary/25 animate-fade-in-up animation-delay-400">
               <div className="absolute -top-1 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground px-3 py-1 rounded-bl-md rounded-br-md text-xs font-medium">
                 Meest Gekozen
               </div>
@@ -126,7 +126,7 @@ export default function PricingPage() {
             </Card>
 
             {/* Tier 3: Groei */}
-            <Card className="flex flex-col">
+            <Card className="flex flex-col animate-fade-in-up animation-delay-500">
               <CardHeader>
                 <CardTitle className="text-2xl">Groei</CardTitle>
                 <CardDescription>Voor bedrijven met complexe behoeften of volledige functionaliteit</CardDescription>
@@ -184,7 +184,7 @@ export default function PricingPage() {
           </div>
 
           {/* Maatwerk Section */}
-          <div className="mt-16 bg-gradient-to-r from-muted/50 to-background border rounded-2xl p-8 md:p-12 relative overflow-hidden">
+          <div className="mt-16 bg-gradient-to-r from-muted/50 to-background border rounded-2xl p-8 md:p-12 relative overflow-hidden animate-fade-in-up animation-delay-500">
             <div className="absolute right-0 top-0 h-full w-1/3 bg-gradient-to-l from-primary/5 to-transparent"></div>
             <div className="flex flex-col md:flex-row gap-8 items-center justify-between relative z-10">
               <div className="space-y-4 max-w-2xl">

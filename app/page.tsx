@@ -11,23 +11,25 @@ export default function Home() {
       <section className="py-24 md:py-32 relative overflow-hidden bg-linear-to-br from-muted via-background to-background">        
         <div className="absolute inset-0 bg-dots text-primary/10 pointer-events-none"></div> 
         <div className="container px-4 md:px-8 mx-auto max-w-7xl text-center relative z-10">
-          <Badge variant="secondary" className="mb-6 px-4 py-1.5 text-sm font-medium border-primary/20 bg-primary/5 text-primary">
-            Webdynamiq
-          </Badge>
-          <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-8 text-balance">
+          <div className="animate-fade-in-up">
+            <Badge variant="secondary" className="mb-6 px-4 py-1.5 text-sm font-medium border-primary/20 bg-primary/5 text-primary">
+              Webdynamiq
+            </Badge>
+          </div>
+          <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-8 text-balance animate-fade-in-up animation-delay-100">
             Premium webdesign dat <br className="hidden md:block" />
             <span className="bg-clip-text text-transparent bg-linear-to-r from-primary to-primary/60">
               meegroeit met uw ambities
             </span>
           </h1>
-          <p className="text-xl md:text-2xl font-medium text-foreground max-w-2xl mx-auto mb-6 text-balance">
+          <p className="text-xl md:text-2xl font-medium text-foreground max-w-2xl mx-auto mb-6 text-balance animate-fade-in-up animation-delay-200">
             Professionele kwaliteit zonder dure enterprise-prijzen.
           </p>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-10 text-balance">
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-10 text-balance animate-fade-in-up animation-delay-300">
             Geen vaste pakketten die niet passen. <br className="hidden sm:block" />
             Ik bekijk samen met u wat u nodig heeft en wat haalbaar is binnen uw budget.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up animation-delay-300">
             <Link href="/contact">
               <Button size="lg" className="w-full sm:w-auto h-12 px-8 text-base shadow-lg shadow-primary/20">Start uw project</Button>
             </Link>
