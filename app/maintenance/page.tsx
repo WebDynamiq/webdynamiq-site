@@ -74,9 +74,9 @@ export default function MaintenancePage() {
             </Card>
 
             {/* Growth */}
-            <Card className="flex flex-col border-primary relative bg-primary/5 shadow-lg">
-              <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground px-3 py-1 rounded-full text-xs font-medium shadow-sm">
-                Aanbevolen
+             <Card className="flex flex-col border-primary relative border hover:shadow-primary/25">
+              <div className="absolute -top-1 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground px-3 py-1 rounded-bl-md rounded-br-md text-xs font-medium">
+                Meest Gekozen
               </div>
               <CardHeader>
                 <CardTitle className="text-2xl">Groei</CardTitle>
@@ -94,7 +94,7 @@ export default function MaintenancePage() {
                   </li>
                   <li className="flex items-start gap-2">
                     <Check className="h-5 w-5 text-primary shrink-0" />
-                    <span className="text-sm">2 uur content updates/maand</span>
+                    <span className="text-sm">Afgesproken uren content updates/maand</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <Check className="h-5 w-5 text-primary shrink-0" />

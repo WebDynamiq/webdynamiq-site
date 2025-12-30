@@ -58,7 +58,7 @@ export default function PricingPage() {
                 <ul className="space-y-3">
                   <li className="flex items-start gap-2">
                     <Check className="h-5 w-5 text-primary shrink-0" />
-                    <span className="text-sm">1–5 pagina’s</span>
+                    <span className="text-sm">Design aangepast aan uw sector</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <Check className="h-5 w-5 text-primary shrink-0" />
@@ -71,6 +71,10 @@ export default function PricingPage() {
                   <li className="flex items-start gap-2">
                     <Check className="h-5 w-5 text-primary shrink-0" />
                     <span className="text-sm">Contactformulier</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <Check className="h-5 w-5 text-primary shrink-0" />
+                    <span className="text-sm">Prestatierapport</span>
                   </li>
                 </ul>
               </CardContent>
@@ -98,7 +102,11 @@ export default function PricingPage() {
                 <ul className="space-y-3">
                   <li className="flex items-start gap-2">
                     <Check className="h-5 w-5 text-primary shrink-0" />
-                    <span className="text-sm">6–10 pagina’s</span>
+                    <span className="text-sm">Alles van basis</span>
+                  </li>
+                   <li className="flex items-start gap-2">
+                    <Check className="h-5 w-5 text-primary shrink-0" />
+                    <span className="text-sm">Eigen design mogelijk</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <Check className="h-5 w-5 text-primary shrink-0" />
@@ -139,7 +147,7 @@ export default function PricingPage() {
                 <ul className="space-y-3">
                   <li className="flex items-start gap-2">
                     <Check className="h-5 w-5 text-primary shrink-0" />
-                    <span className="text-sm">Meer dan 10 pagina’s</span>
+                    <span className="text-sm">Alles van professioneel</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <Check className="h-5 w-5 text-primary shrink-0" />
@@ -160,6 +168,10 @@ export default function PricingPage() {
                   <li className="flex items-start gap-2">
                     <Check className="h-5 w-5 text-primary shrink-0" />
                     <span className="text-sm">API-integraties</span>
+                  </li>
+                   <li className="flex items-start gap-2">
+                    <Check className="h-5 w-5 text-primary shrink-0" />
+                    <span className="text-sm">Geavanceerde filters</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <Check className="h-5 w-5 text-primary shrink-0" />

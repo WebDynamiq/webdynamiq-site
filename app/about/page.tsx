@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Over Mij",
@@ -39,8 +40,8 @@ export default function AboutPage() {
               <h2 className="text-3xl font-bold mb-6">Mijn Missie</h2>
               <div className="space-y-4 text-muted-foreground text-lg leading-relaxed">
                 <p>
-                  Bij Webdynamiq geloof ik dat professioneel webdevelopment
-                  niet voorbehouden moet zijn aan grote bedrijven met enorme
+                  Bij Webdynamiq geloof ik dat professioneel webdevelopment niet
+                  voorbehouden moet zijn aan grote bedrijven met enorme
                   budgetten.
                 </p>
                 <p>
@@ -54,23 +55,21 @@ export default function AboutPage() {
                   voor een prijs die logisch is voor groeiende bedrijven.
                 </p>
                 <p>
-                  Ik schrijf niet alleen code; ik los problemen op. Of u nu
-                  meer lokale klanten wilt aantrekken, uw boekingsproces wilt
+                  Ik schrijf niet alleen code; ik los problemen op. Of u nu meer
+                  lokale klanten wilt aantrekken, uw boekingsproces wilt
                   stroomlijnen of online producten wilt verkopen, ik bouw de
                   tools om u te helpen slagen.
                 </p>
               </div>
             </div>
-            <div className="relative h-96 rounded-2xl overflow-hidden border bg-muted/30">
-              <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,var(--primary),transparent)] opacity-10"></div>
-              <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-size-[24px_24px]"></div>
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-32 h-32 bg-primary/20 rounded-full blur-2xl"></div>
-              </div>
-              <div className="absolute inset-0 flex items-center justify-center">
-                <span className="text-muted-foreground font-medium relative z-10">
-                  Werkplek Illustratie
-                </span>
+            <div className="relative h-96 rounded-2xl overflow-hidden border">
+              <div className="order-last md:order-first relative h-full rounded-xl overflow-hidden border bg-linear-to-br from-primary/50 via-primary/20 to-background shadow-xl">
+                <Image
+                  src="/images/myself.png"
+                  alt="Foto developer Webdynamiq"
+                  fill
+                  className="object-cover"  
+                />
               </div>
             </div>
           </div>
@@ -104,8 +103,8 @@ export default function AboutPage() {
               <CardContent className="pt-8">
                 <h3 className="text-xl font-bold mb-3">Kwaliteit</h3>
                 <p className="text-muted-foreground">
-                  Ik lever geen half werk. Ik bouw robuuste, veilige en
-                  snelle websites die voldoen aan de hoogste standaarden in de
+                  Ik lever geen half werk. Ik bouw robuuste, veilige en snelle
+                  websites die voldoen aan de hoogste standaarden in de
                   industrie.
                 </p>
               </CardContent>

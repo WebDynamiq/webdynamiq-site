@@ -7,10 +7,13 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
             <h3 className="text-lg font-bold">Webdynamiq</h3>
-            <p className="text-sm text-muted-foreground leading-relaxed">
-              Hoogwaardige, professionele weboplossingen aangepast aan uw budget. 
-              Ik help bedrijven groeien met mensgerichte digitale strategieën.
-            </p>
+            
+            <address className="not-italic text-sm text-muted-foreground flex flex-col gap-1">
+              <span>Zelfstandige in bijberoep</span>
+              <span>Ondernemingsnummer: 1011.383.168</span>
+              <span>Oud-Turnhout, België</span>
+              <a href="mailto:info@webdynamiq.com" className="hover:text-foreground transition-colors underline">info@webdynamiq.com</a>
+            </address>  
           </div>
           
           <div>
