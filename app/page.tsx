@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section className="py-24 md:py-32 relative overflow-hidden bg-linear-to-br from-muted via-background to-background">
+      <section className="py-12 md:py-32 relative overflow-hidden bg-linear-to-br from-muted via-background to-background">
         <div className="absolute inset-0 bg-dots text-primary/10 pointer-events-none"></div>
         <div className="container px-4 md:px-8 mx-auto max-w-7xl text-center relative z-10">
           <div className="animate-fade-in-up">
