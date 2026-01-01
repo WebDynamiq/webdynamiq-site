@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import { useMutation } from "convex/react";
 import { api } from "@/convex/_generated/api";
 import { Button } from "@/components/ui/button";
@@ -10,6 +11,7 @@ import { Label } from "@/components/ui/label";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 export function ContactForm() {
+  const router = useRouter();
   const submitForm = useMutation(api.contact.submitForm);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -28,7 +30,7 @@ export function ContactForm() {
       setSubject("");
       setMessage("");
       setPhoneNumber("");
-      alert("Bedankt voor uw bericht! Ik neem zo snel mogelijk contact met u op.");
+      router.push("/thank-you");
     } catch (error) {
       console.error("Error submitting form:", error);
       alert("Er is iets misgegaan. Probeer het later opnieuw.");
