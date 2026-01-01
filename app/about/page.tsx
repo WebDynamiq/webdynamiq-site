@@ -7,7 +7,19 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "Over Mij",
   description:
-    "Webdynamiq is een webdevelopment bureau gericht op het helpen van kleine bedrijven om te groeien met professionele, betaalbare digitale oplossingen.",
+    "Webdynamiq is een webdevelopment bureau gericht op het helpen van kleine en grote bedrijven om te groeien met professionele, betaalbare digitale oplossingen.",
+  openGraph: {
+    title: "Over Mij | Webdynamiq",
+    description: "Webdynamiq is een webdevelopment bureau gericht op het helpen van kleine en grote bedrijven om te groeien met professionele, betaalbare digitale oplossingen.",
+    images: [
+      {
+        url: "/images/myself.png",
+        width: 800,
+        height: 800,
+        alt: "Brent van Webdynamiq",
+      },
+    ],
+  },
 };
 
 export default function AboutPage() {

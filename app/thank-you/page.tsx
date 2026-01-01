@@ -1,5 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { Check, ArrowLeft } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "Bedankt",
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
 
 export default function ThankYouPage() {
   return (

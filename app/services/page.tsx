@@ -7,6 +7,18 @@ import { Badge } from "@/components/ui/badge";
 export const metadata: Metadata = {
   title: "Diensten",
   description: "Professionele webdevelopment diensten inclusief bedrijfswebsites, maatwerk applicaties, e-commerce en doorlopende ondersteuning.",
+  openGraph: {
+    title: "Diensten | Webdynamiq",
+    description: "Professionele webdevelopment diensten inclusief bedrijfswebsites, maatwerk applicaties, e-commerce en doorlopende ondersteuning.",
+    images: [
+      {
+        url: "/images/website.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Webdynamiq Diensten",
+      },
+    ],
+  },
 };
 
 export default function ServicesPage() {
