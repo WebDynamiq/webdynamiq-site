@@ -17,7 +17,7 @@ export default function FAQPage() {
   const faqs = [
     {
       question: "Werk jij alleen met grote bedrijven?",
-      answer: "Helemaal niet! Ik ben gespecialiseerd in het werken met kleine bedrijven, startups en lokale ondernemingen. Ik geloof dat professioneel webdevelopment toegankelijk moet zijn voor bedrijven van elke omvang."
+      answer: "Helemaal niet! Ik werk met kleine bedrijven, startups en lokale ondernemingen. Ik geloof dat professioneel webdevelopment toegankelijk moet zijn voor bedrijven van elke omvang."
     },
     {
       question: "Wat als mijn budget beperkt is?",
@@ -37,7 +37,7 @@ export default function FAQPage() {
     },
     {
       question: "Bouw jij schaalbare oplossingen?",
-      answer: "Ja. Ik bouw met groei in gedachten. Of u nu klein begint en later functies wilt toevoegen, of een systeem nodig heeft dat duizenden gebruikers aankan, ik gebruik technologieën (zoals Next.js) die met uw bedrijf meegroeien."
+      answer: "Ja. Ik bouw met groei in gedachten. Of u nu klein begint en later functies wilt toevoegen, of een systeem nodig heeft dat duizenden gebruikers aankan, ik gebruik technologieën die met uw bedrijf meegroeien."
     },
     {
       question: "Kan ik de website zelf bijwerken?",

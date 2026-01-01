@@ -54,7 +54,7 @@ export default function MaintenancePage() {
                   </li>
                   <li className="flex items-start gap-2">
                     <Check className="h-5 w-5 text-primary shrink-0" />
-                    <span className="text-sm">Dagelijkse back-ups & monitoring</span>
+                    <span className="text-sm">Back-ups & monitoring</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <Check className="h-5 w-5 text-primary shrink-0" />
@@ -98,7 +98,7 @@ export default function MaintenancePage() {
                   </li>
                   <li className="flex items-start gap-2">
                     <Check className="h-5 w-5 text-primary shrink-0" />
-                    <span className="text-sm">Maandelijks prestatierapport</span>
+                    <span className="text-sm">Prestatierapporten</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <Check className="h-5 w-5 text-primary shrink-0" />
