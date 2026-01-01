@@ -24,7 +24,20 @@ export const metadata: Metadata = {
   },
   description: "Professioneel webdesignbureau voor kleine bedrijven en startups. Premium websites die passen bij uw budget.",
   icons: {
-    icon: "/convex.svg",
+    icon: [
+      { url: '/favicon/favicon.ico' },
+      { url: '/favicon/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/favicon/apple-touch-icon.png' },
+    ],
+    other: [
+      {
+        rel: 'manifest',
+        url: '/favicon/site.webmanifest',
+      },
+    ],
   },
 };
 
