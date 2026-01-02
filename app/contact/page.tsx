@@ -43,7 +43,7 @@ export default function ContactPage() {
               <div className="space-y-8">
                 <div>
                   <h3 className="font-semibold mb-2">E-mail mij</h3>
-                  <p className="text-muted-foreground">hello@webdynamiq.com</p>
+                  <p className="text-muted-foreground">info@webdynamiq.com</p>
                 </div>
                 <div>
                   <h3 className="font-semibold mb-2">Locatie</h3>

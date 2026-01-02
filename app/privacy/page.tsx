@@ -41,7 +41,7 @@ export default function PrivacyPage() {
 
         <h2 className="text-xl font-semibold mt-8 mb-4">4. Neem contact op</h2>
         <p className="mb-4">
-          Als u vragen heeft over dit privacybeleid of mijn privacypraktijken, neem dan contact met mij op via hello@webdynamiq.com.
+          Als u vragen heeft over dit privacybeleid of mijn privacypraktijken, neem dan contact met mij op via info@webdynamiq.com.
         </p>
       </div>
     </div>
