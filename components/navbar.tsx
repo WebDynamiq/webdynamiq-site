@@ -52,7 +52,7 @@ export function Navbar() {
                 <Link href="/pricing/how-it-works" className="hover:bg-muted px-2 py-1.5 rounded-sm transition-colors">
                   Hoe het werkt
                 </Link>
-                <Link href="/maintenance" className="hover:bg-muted px-2 py-1.5 rounded-sm transition-colors">
+                <Link href="/pricing#maintenance" className="hover:bg-muted px-2 py-1.5 rounded-sm transition-colors">
                   Onderhoud
                 </Link>
               </div>
@@ -124,7 +124,7 @@ export function Navbar() {
                             <Link href="/pricing/how-it-works" onClick={() => setIsOpen(false)} className="text-muted-foreground hover:text-foreground py-2 block text-base transition-colors">
                               Hoe het werkt
                             </Link>
-                            <Link href="/maintenance" onClick={() => setIsOpen(false)} className="text-muted-foreground hover:text-foreground py-2 block text-base transition-colors">
+                            <Link href="/pricing#maintenance" onClick={() => setIsOpen(false)} className="text-muted-foreground hover:text-foreground py-2 block text-base transition-colors">
                               Onderhoud
                             </Link>
                           </div>
